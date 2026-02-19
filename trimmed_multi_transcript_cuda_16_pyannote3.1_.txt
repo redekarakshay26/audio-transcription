@@ -1,5 +1,5 @@
 =================================================================
-  Run Timestamp    : 2026-02-19 08:38:44
+  Run Timestamp    : 2026-02-19 15:06:26
 =================================================================
 
 [Config]
@@ -11,8 +11,8 @@
   diarize_model    : pyannote/speaker-diarization-3.1
 
 [GPU]
-  name             : NVIDIA L4
-  vram_total       : 22.28 GB
+  name             : Tesla T4
+  vram_total       : 14.74 GB
   cuda_version     : 12.1
   cudnn_version    : 8902
   device_index     : 0
@@ -20,15 +20,15 @@
 [Audio]
   file             : trimmed_multi.webm
   duration         : 487.7s  (8.13m)
-  total segments   : 105
+  total segments   : 102
 
 [Timings]
-  audio_load       : 3.04s  (0.05m)
-  transcription    : 1.87s  (0.03m)
-  alignment        : 6.37s  (0.11m)
-  diarization      : 12.96s  (0.22m)
-  speaker_assign   : 2.2s  (0.04m)
-  total            : 28.75s  (0.48m)
+  audio_load       : 3.22s  (0.05m)
+  transcription    : 2.92s  (0.05m)
+  alignment        : 7.4s  (0.12m)
+  diarization      : 21.64s  (0.36m)
+  speaker_assign   : 1.98s  (0.03m)
+  total            : 39.65s  (0.66m)
 
 [Transcript]
 -----------------------------------------------------------------
@@ -42,8 +42,7 @@
     SPEAKER_02 [ 31.70 →  32.48] And that's our power.
     SPEAKER_02 [ 32.90 →  38.34] First I would like to tell Raj, you are not the only Genji here, right?
     SPEAKER_02 [ 38.52 →  42.01] You don't try to say that you are Genji, we are not, right?
-    SPEAKER_02 [ 42.35 →  43.41] All of us here are.
-    SPEAKER_01 [ 43.49 →  45.55] And he is Alpha.
+    SPEAKER_02 [ 42.35 →  45.55] All of us here are, and he is Alpha.
     SPEAKER_02 [ 45.59 →  48.61] The gen Alpha comes from this guy.
     SPEAKER_03 [ 48.95 →  49.63] I agree.
     SPEAKER_03 [ 49.69 →  55.13] Yes, they are misunderstood, but behind that chaos lies a certain sense of purpose to
@@ -65,19 +64,18 @@
     SPEAKER_02 [ 98.34 → 101.48] And today, these people are making history.
     SPEAKER_01 [101.54 → 109.79] What is the core value of your leadership today that keeps you grounded in a changing environment?
     SPEAKER_01 [110.69 → 111.75] Maybe we can begin with Aman?
-    SPEAKER_02 [113.54 → 113.80] Hi.
-    SPEAKER_02 [114.52 → 115.52] Good to see you again, Mike.
+    SPEAKER_02 [113.54 → 115.52] Hi, good to see you again, Mike.
     SPEAKER_02 [116.10 → 124.35] I was scared when they said that you are interviewing us because brute is normally brutal for people, but please be kind to us today, all right?
     SPEAKER_02 [125.65 → 126.27] I'll do my best.
     SPEAKER_02 [127.58 → 131.81] So, I have seen a lot of changes happen.
     SPEAKER_02 [132.11 → 138.63] When I entered the workforce, I remember, my mom was also a teacher in Don Bosque School.
-    SPEAKER_02 [139.19 → 143.75] But when I entered the workforce, actually, I used to play chess before interviews.
-    SPEAKER_02 [143.81 → 146.35] When you go to the interview, it would be a good interview.
+    SPEAKER_02 [139.19 → 143.73] But when I entered the workforce, actually, I used to play chess before interviews.
+    SPEAKER_02 [143.75 → 148.23] You know, if you are going on an interview, it would be a good interview.
     SPEAKER_02 [149.41 → 157.73] And today, when I work with a lot of Gen Zs and Millennials, and I see them coming to the job as if they do us a favor working for us.
     SPEAKER_02 [159.21 → 160.99] So it's a very different world.
     SPEAKER_02 [162.27 → 163.53] But I love working with them.
     SPEAKER_02 [164.19 → 167.25] They bring a different perspective.
-    SPEAKER_02 [167.87 → 172.96] They may not have the right experience, which others may have, but their exposure is amazing.
+    SPEAKER_02 [167.87 → 172.96] They may not have the right experience which others may have, but their exposure is amazing.
     SPEAKER_02 [173.34 → 176.52] And if you don't learn how to
     SPEAKER_02 [177.16 → 178.18] walk together with them.
     SPEAKER_02 [179.26 → 193.80] Then today companies like us will become probably dead in a few years because they are the ones who know what moves in the market, what is the right way to approach the consumers, what is the right marketing happening.
@@ -104,8 +102,7 @@
     SPEAKER_03 [286.61 → 290.91] OK, I am so glad you asked that question because yes, they are a misunderstood bunch.
     SPEAKER_03 [293.23 → 297.59] What gives me the most hope is that Gen Z cannot separate profession and purpose.
     SPEAKER_03 [298.79 → 302.12] They just cannot act on anything that does not give them fulfillment.
-    SPEAKER_03 [302.98 → 308.56] It has to align at the end of the day to quantify what is the impact that they're actually making.
-    SPEAKER_03 [309.08 → 310.54] Be it in a corporate, in a startup.
+    SPEAKER_03 [302.98 → 310.54] It has to align at the end of the day to quantify what is the impact that they're actually making, be it in a corporate, in a startup.
     SPEAKER_03 [311.18 → 315.88] And if the answer is just another soldier, it really doesn't align with them.
     SPEAKER_03 [316.72 → 320.26] which they're channeling to not ask for a seat at the table.
     SPEAKER_03 [320.54 → 322.50] That's something that ended with millennials.

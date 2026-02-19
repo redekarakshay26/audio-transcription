@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+whisperx==3.3.0
+torch==2.8.0
+librosa
+numba
+llvmlite
+# huggingface-hub>=0.34.0
+# huggingface-hub==0.36.2
+huggingface-hub>=0.34.0,<1.0
+transformers
+langchain-openai
+
+
+# sudo apt update && sudo apt install ffmpeg -y

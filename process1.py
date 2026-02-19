@@ -229,7 +229,7 @@ class AudioTranscriber:
 
 
 if __name__ == "__main__":
-    input_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "rajspeech.webm")
+    input_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "trimmed_multi.webm")
 
     if not os.path.exists(input_file):
         raise FileNotFoundError(f"Input file not found: {input_file}")

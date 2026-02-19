@@ -1,5 +1,5 @@
 =================================================================
-  Run Timestamp    : 2026-02-19 15:05:17
+  Run Timestamp    : 2026-02-19 15:04:22
 =================================================================
 
 [Config]
@@ -7,7 +7,7 @@
   device           : cuda
   compute_type     : float16
   language         : en
-  batch_size       : 8
+  batch_size       : 4
   diarize_model    : pyannote/speaker-diarization-3.1
 
 [GPU]
@@ -23,12 +23,12 @@
   total segments   : 105
 
 [Timings]
-  audio_load       : 3.24s  (0.05m)
-  transcription    : 2.96s  (0.05m)
-  alignment        : 7.48s  (0.12m)
-  diarization      : 20.42s  (0.34m)
-  speaker_assign   : 1.97s  (0.03m)
-  total            : 38.49s  (0.64m)
+  audio_load       : 3.33s  (0.06m)
+  transcription    : 3.13s  (0.05m)
+  alignment        : 7.29s  (0.12m)
+  diarization      : 19.41s  (0.32m)
+  speaker_assign   : 1.98s  (0.03m)
+  total            : 37.68s  (0.63m)
 
 [Transcript]
 -----------------------------------------------------------------
@@ -59,7 +59,7 @@
     SPEAKER_00 [ 75.56 →  78.21] They are not the consumers of content.
     SPEAKER_00 [ 78.97 →  82.45] But they are the ones who are going to be the creators of content tomorrow.
     SPEAKER_02 [ 82.95 →  85.39] And now this year, our season 5 is about to come.
-    SPEAKER_02 [ 85.79 →  92.02] And in that, we have specially said to producers and makers that please bring these young guys.
+    SPEAKER_02 [ 85.79 →  92.02] And in that, we have specially asked producers and makers to please bring these young guys.
     SPEAKER_02 [ 92.04 →  94.66] Because their ideas are different and they are ready to change the world.
     SPEAKER_02 [ 94.68 →  98.28] We used to teach our Maam Mar market teachers history.
     SPEAKER_02 [ 98.34 → 100.32] And today, they are making history.
@@ -77,7 +77,7 @@
     SPEAKER_02 [159.21 → 160.99] So it's a very different world.
     SPEAKER_02 [162.27 → 163.53] But I love working with them.
     SPEAKER_02 [164.19 → 167.25] They bring a different perspective.
-    SPEAKER_02 [167.87 → 172.96] They may not have the right experience, which others may have, but their exposure is amazing.
+    SPEAKER_02 [167.87 → 172.96] They may not have the right experience which others may have, but their exposure is amazing.
     SPEAKER_02 [173.34 → 176.52] And if you don't learn how to
     SPEAKER_02 [177.16 → 178.18] walk together with them.
     SPEAKER_02 [179.26 → 193.80] Then today companies like us will become probably dead in a few years because they are the ones who know what moves in the market, what is the right way to approach the consumers, what is the right marketing happening.

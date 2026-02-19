@@ -1,5 +1,5 @@
 =================================================================
-  Run Timestamp    : 2026-02-19 14:36:23
+  Run Timestamp    : 2026-02-19 15:00:37
 =================================================================
 
 [Config]
@@ -7,7 +7,7 @@
   device           : cuda
   compute_type     : float16
   language         : en
-  batch_size       : 32
+  batch_size       : 4
   diarize_model    : pyannote/speaker-diarization-3.1
 
 [GPU]
@@ -20,15 +20,15 @@
 [Audio]
   file             : rajspeech.webm
   duration         : 4609.4s  (76.82m)
-  total segments   : 1189
+  total segments   : 1186
 
 [Timings]
-  audio_load       : 32.42s  (0.54m)
-  transcription    : 21.4s  (0.36m)
-  alignment        : 64.96s  (1.08m)
-  diarization      : 211.6s  (3.53m)
-  speaker_assign   : 19.02s  (0.32m)
-  total            : 352.08s  (5.87m)
+  audio_load       : 32.21s  (0.54m)
+  transcription    : 26.41s  (0.44m)
+  alignment        : 65.65s  (1.09m)
+  diarization      : 212.39s  (3.54m)
+  speaker_assign   : 18.98s  (0.32m)
+  total            : 358.0s  (5.97m)
 
 [Transcript]
 -----------------------------------------------------------------
@@ -81,21 +81,20 @@
     SPEAKER_09 [322.35 → 325.23] So, health wealth and relationships are very important for me.
     SPEAKER_09 [325.29 → 329.65] So, I am figuring out how to improve myself, how to improve myself and how to improve myself.
     SPEAKER_09 [329.67 → 330.67] So, I am very selfish.
-    SPEAKER_09 [344.93 → 348.81] So, because I want to become a better person, I feel like many people who want to become a better person like me.
-    SPEAKER_09 [348.83 → 354.75] So, I take good people from the world of India's big experts and experts.
+    SPEAKER_09 [344.93 → 348.93] So, because I want to become a better person, I feel like many people who want to become a better person like me.
+    SPEAKER_09 [348.95 → 354.75] So, I want to become a world's India's biggest experts and good people.
     SPEAKER_09 [354.93 → 357.95] And I don't understand what my personal questions are.
     SPEAKER_09 [358.57 → 359.37] That's all I do.
     SPEAKER_09 [360.25 → 367.15] So, all my podcasts, I'm not trying to balance or actually look into different parts or different categories.
-    SPEAKER_09 [367.17 → 367.89] I'm very simple.
-    SPEAKER_09 [367.93 → 370.41] If I want to become a better person, I'm getting better people.
-    SPEAKER_09 [371.21 → 372.41] Now, a lot of times,
-    SPEAKER_09 [375.49 → 384.93] So all the feedback that we take, anyone who has seen my podcast, anyone who has seen my podcast, yeah.
-    SPEAKER_09 [384.95 → 385.03] Okay.
-    SPEAKER_09 [385.05 → 394.72] So if someone has seen the end, then in the end, I always say that please give us feedback in the comments because we are better than your feedbacks.
+    SPEAKER_09 [367.17 → 370.41] I'm very simple because I want to become a better person, so I'm getting better people.
+    SPEAKER_09 [371.21 → 372.93] Now, it's a lot of such things that
+    SPEAKER_09 [375.49 → 385.87] So all the feedback that we take, anyone who has seen my podcast, anyone who has seen my podcast, yeah.
+    SPEAKER_12 [386.79 → 387.35] Okay.
+    SPEAKER_09 [387.37 → 394.72] So if someone has seen the end, then in the end, I always say, please give us feedback in the comments because we are better than your feedbacks.
     SPEAKER_09 [395.82 → 398.68] My whole team, there's one are dedicated.
     SPEAKER_09 [399.59 → 402.11] daily, where we only read comments including me.
-    SPEAKER_09 [402.13 → 407.45] And in those comments, whatever feedback we get, they write on the whiteboard and write that we have to better in the next podcast.
-    SPEAKER_09 [407.49 → 410.15] Here our research was also a part of it.
+    SPEAKER_09 [402.13 → 408.51] And in those comments, whatever feedback we get, they write on the whiteboard and write that in the next podcast we have to better do this.
+    SPEAKER_09 [408.53 → 410.15] Here our research was also a part of it.
     SPEAKER_09 [410.17 → 411.35] Here probably we have a question wrong.
     SPEAKER_09 [411.37 → 412.01] Here we are scared.
     SPEAKER_09 [412.03 → 416.77] Here we had to ask a good question, no question.
@@ -126,7 +125,7 @@
     SPEAKER_09 [542.50 → 544.64] And then, how will you return?
     SPEAKER_09 [546.38 → 550.18] If you have a fight, then you will take down.
     SPEAKER_09 [550.37 → 555.13] Now, in that situation, there is no such thing that what is the meaning of take down?
-    SPEAKER_09 [555.15 → 560.53] So, in your case, there are 20 bodyguards.
+    SPEAKER_09 [555.15 → 560.53] So, in your eyes, there are 20 bodyguards.
     SPEAKER_09 [560.58 → 565.94] And there are some bodyguards, who have a camouflage in the audience, you do not even know, they are not there.
     SPEAKER_09 [566.44 → 569.38] And there are SPG, SPG Special Protection Group.
     SPEAKER_09 [572.02 → 574.08] even if you are Mukesh Ambani in this country, you can't buy.
@@ -135,9 +134,9 @@
     SPEAKER_09 [579.19 → 579.93] They can't get SP.
     SPEAKER_09 [579.95 → 581.89] So, a special breed of
     SPEAKER_09 [586.16 → 589.09] Just the politicians, that's what I'm saying.
-    SPEAKER_09 [589.11 → 597.03] So, a special breed of people, which is trained, that they are their bodyguards, they come to you and tell you to do this and this and this.
-    SPEAKER_09 [597.13 → 600.67] If PM has brought you with your hands, then you will get your hands.
-    SPEAKER_09 [600.77 → 604.97] Otherwise, you can't even give your hands up.
+    SPEAKER_09 [589.11 → 596.63] So, a special breed of people, which is trained by their bodyguards, they come to you and tell you to do this and this and that.
+    SPEAKER_09 [596.65 → 600.41] If PM has brought you with your hands, then you will have to.
+    SPEAKER_09 [600.43 → 604.97] Otherwise, you can't even give your hands up.
     SPEAKER_09 [606.97 → 617.48] Now, in that time, in such an environment, and on top of that, there is a shadow of a bodyguard, that after hearing all this, there is a thought of some foolishness in your mind.
     SPEAKER_09 [619.60 → 621.14] So, this man is standing behind you.
     SPEAKER_09 [621.24 → 632.60] In this pressure, he is sending you, and your time is also dedicated, that in such a minute, a person will stand there, like he will stand there, that is your cue, because you have to come back behind him.
@@ -148,23 +147,20 @@
     SPEAKER_09 [658.15 → 663.19] Because the more viral my intro is, the more viral my take down is.
     SPEAKER_09 [665.49 → 666.57] So that was honest feeling.
     SPEAKER_09 [666.59 → 668.33] I think it's pretty interesting.
-    SPEAKER_09 [668.37 → 670.95] I think, I think, I think it's pretty interesting.
-    SPEAKER_09 [671.01 → 672.27] I think it's pretty interesting.
-    SPEAKER_08 [672.93 → 673.88] I think it's pretty interesting.
-    SPEAKER_09 [673.89 → 676.06] I think it's pretty interesting.
+    SPEAKER_09 [668.37 → 671.99] I think, I think, I think it's pretty interesting.
+    SPEAKER_08 [672.05 → 673.82] I think it's pretty interesting.
+    SPEAKER_09 [673.84 → 676.06] I think it's pretty interesting.
     SPEAKER_09 [676.14 → 678.92] I think it's pretty interesting.
     SPEAKER_09 [679.18 → 682.28] I think it's pretty interesting.
     SPEAKER_09 [682.36 → 683.68] I think it's pretty interesting.
     SPEAKER_09 [683.70 → 686.00] I think it's pretty interesting.
     SPEAKER_09 [686.06 → 688.18] I think it's pretty interesting.
-    SPEAKER_09 [693.18 → 697.10] Before the red carpet, all the lines come together and all the cars come together.
-    SPEAKER_09 [697.48 → 702.04] You get rid of them from the car and you get rid of them from the car and you get rid of them from the car.
-    SPEAKER_09 [702.62 → 706.83] Then, based on your celebrity status, if you are a normal person, you send them like this.
-    SPEAKER_09 [706.91 → 710.97] If you are a little celebrity, then you send 30 seconds to everyone.
-    SPEAKER_09 [710.99 → 712.97] Then you send them 30 seconds to everyone.
-    SPEAKER_09 [713.01 → 714.63] Then you go to the other side.
-    SPEAKER_09 [714.65 → 718.02] Then if you are a little celebrity, then you get 1 minute.
-    SPEAKER_09 [718.98 → 725.14] But in the first 30 minutes of the line, all of them live there.
+    SPEAKER_09 [693.14 → 695.20] Before the red carpet, all the lines come together and all the cars come together.
+    SPEAKER_09 [695.22 → 697.80] You get rid of them from the car and you get rid of them from the car and you get rid of them from the car.
+    SPEAKER_09 [697.82 → 700.20] Then, based on your celebrity status, if you are a normal person, you send it like this.
+    SPEAKER_09 [700.22 → 701.90] If you are a little celebrity, then you send 30 seconds to everyone.
+    SPEAKER_09 [701.92 → 718.04] Then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it to everyone, then you send it
+    SPEAKER_09 [718.98 → 725.14] But in the first 30 minutes of the line, all of them remain there.
     SPEAKER_09 [725.80 → 727.50] There is Chris Hemsworth as well.
     SPEAKER_09 [727.98 → 729.98] The Thor, Selena Gomez as well.
     SPEAKER_09 [730.02 → 730.64] You too.
@@ -173,14 +169,14 @@
     SPEAKER_09 [739.82 → 742.92] And it's constantly a question of how many people are in my photo.
     SPEAKER_09 [742.95 → 745.05] Why should I talk to you?
     SPEAKER_09 [745.09 → 746.19] Why should I come here?
-    SPEAKER_09 [746.63 → 754.27] Is it for movies, festival, culture, celebrity, clothes?
+    SPEAKER_09 [746.63 → 754.27] Is it for movies, festival culture, celebrity, clothes?
     SPEAKER_09 [754.31 → 755.71] You don't know anything.
     SPEAKER_09 [756.27 → 760.72] You're constantly just questioning yourself whether you belong here or no.
-    SPEAKER_09 [761.26 → 763.54] And I'm from Indore, so I'm in small town.
-    SPEAKER_09 [763.58 → 767.46] So I feel like it's not for myself, it's for the sake of my family.
+    SPEAKER_09 [761.26 → 763.02] And I'm from the same village.
+    SPEAKER_09 [763.04 → 765.52] So, I think it's been a long time since I was born.
     SPEAKER_09 [769.64 → 771.42] I don't know where am I, what am I doing?
     SPEAKER_09 [771.87 → 772.53] Full-time question.
-    SPEAKER_09 [787.44 → 791.76] Because you don't want to get angry that every photographer will be interested.
+    SPEAKER_09 [787.44 → 791.76] Because you don't want to get angry because every photographer will be interested.
     SPEAKER_09 [792.32 → 794.74] So based on an outfit, there will be a few people who will be interested.
     SPEAKER_09 [795.35 → 797.67] So you are just thinking these things and this is what happens.
     SPEAKER_09 [798.03 → 805.99] But once you get a walk, then you go inside and you will find out that only in this theater, thousands of people will be able to get a chance to come here.
@@ -189,7 +185,7 @@
     SPEAKER_14 [823.50 → 826.25] You know, a contributor's journey is very difficult.
     SPEAKER_14 [826.79 → 831.51] And I think that journey is very difficult because you started with 10,000 rupees.
     SPEAKER_14 [831.99 → 834.39] Then you build or supported your family.
-    SPEAKER_14 [835.01 → 838.48] Then you created your trading company with 200 crore crore.
+    SPEAKER_14 [835.01 → 838.50] Then you created your trading company with 200 crores.
     SPEAKER_14 [838.55 → 840.38] Now you are doing, I think,
     SPEAKER_14 [841.04 → 843.62] India is at a global level, you know, podcasting.
     SPEAKER_14 [844.20 → 848.12] So how is this journey being and how difficult was the journey?
@@ -205,7 +201,7 @@
     SPEAKER_09 [904.96 → 908.16] If you don't do anything, just earn money.
     SPEAKER_09 [908.18 → 912.18] Because if you earn money, then your confidence will be in you.
     SPEAKER_09 [912.68 → 916.83] In fact, if your interest will be in you, then your interest will be in you.
-    SPEAKER_09 [916.87 → 918.35] Your interest will always be inferior.
+    SPEAKER_09 [916.87 → 918.35] Your interest will always be in you.
     SPEAKER_09 [918.41 → 922.25] So first, just chase and run towards that security money.
     SPEAKER_09 [922.77 → 923.29] It can be
     SPEAKER_09 [924.81 → 929.15] 10,000 rupees a month, it can be 1 lakh rupees a month, it can be 10 crores a month, it can be 100 crores a month.
@@ -227,7 +223,7 @@
     SPEAKER_09 [977.32 → 979.58] Once you have that, then things change completely.
     SPEAKER_09 [979.60 → 980.88] So what changed for me was,
     SPEAKER_09 [1004.85 → 1006.25] I used to work with my family.
-    SPEAKER_09 [1007.11 → 1012.55] I was a family business, a family of strong values, and everybody was very connected.
+    SPEAKER_09 [1007.11 → 1012.55] I was a family business, a family of strong values, and everybody is very connected.
     SPEAKER_09 [1012.57 → 1018.98] So, there was something in my family where me and my dad started fighting.
     SPEAKER_09 [1020.18 → 1022.30] And we started fighting over little things.
     SPEAKER_09 [1022.78 → 1029.22] Very started dominating me on my decisions or certain decisions which were probably not right from his side.
@@ -328,8 +324,8 @@
     SPEAKER_09 [1572.60 → 1574.92] You should not be there.
     SPEAKER_09 [1575.52 → 1577.84] This exactly what happened with my podcast I'll tell you.
     SPEAKER_09 [1579.23 → 1581.25] I had to make a podcast on personal growth.
-    SPEAKER_09 [1582.19 → 1586.45] A personal growth is so big that if I start it, maybe my podcast would never stand out.
-    SPEAKER_09 [1586.71 → 1591.57] So on day one, my podcast was to start a 20-year-old startup.
+    SPEAKER_09 [1582.19 → 1585.03] A personal growth, if I started it, maybe my podcast would never stand out.
+    SPEAKER_09 [1585.05 → 1587.69] So on day one, my podcast was to start a 20-year-old startup.
     SPEAKER_09 [1594.05 → 1598.07] Then we will like that now, we want to go personal growth, then we have personal growth.
     SPEAKER_09 [1618.33 → 1627.59] Now we are at a stage, this is since last 5-6 months, where we said that every thing in India has to be made in every category.
     SPEAKER_09 [1627.99 → 1628.87] And then we made it.
@@ -395,18 +391,19 @@
     SPEAKER_09 [1893.57 → 1894.95] So for that we all are working.
     SPEAKER_09 [1895.47 → 1896.69] One day I will be successful.
     SPEAKER_09 [1896.73 → 1897.33] Today I am not.
-    SPEAKER_14 [1901.30 → 1907.31] So I'm sure the audience has, you know, a lot of questions, and I would really want them to interact with you as well.
+    SPEAKER_14 [1901.30 → 1904.48] So I'm sure the audience has, you know, a lot of questions.
+    SPEAKER_14 [1904.77 → 1907.31] And I would really want them to interact with you as well.
     SPEAKER_14 [1907.85 → 1911.13] But just ending up with a couple of questions, one from me and him.
     SPEAKER_14 [1912.73 → 1917.06] I have heard and I know that you're a little shy, you know, you were an introvert as well.
     SPEAKER_14 [1917.96 → 1923.08] And stage fear or public speaking was something that was not something that naturally came to you.
-    SPEAKER_14 [1923.90 → 1929.09] But today I think, you know, the world knows, I would not say India and other world knows because you've walked against
+    SPEAKER_14 [1923.90 → 1929.09] But today I think, you know, the world knows, I would not say India and other world knows because you've walked against.
     SPEAKER_14 [1929.95 → 1932.47] So, they know that, you know, you are a public figure.
     SPEAKER_14 [1933.19 → 1941.70] What switched, or what we call first step leaner important, but what in your life switched that it helped you to become that?
     SPEAKER_09 [1944.74 → 1949.02] I'll tell you a real incident, which I speak as a speaker.
     SPEAKER_09 [1949.54 → 1954.40] I'll tell you the underlying motivation behind Q. So, first I'll tell you a real incident.
     SPEAKER_09 [1954.42 → 1959.37] I was in college, I was in first semester, where my attendance was absolutely low.
     SPEAKER_09 [1960.33 → 1965.09] So, in college, my internal and external, I mean, I have to write a theory exam and I have to give a presentation.
-    SPEAKER_09 [1965.15 → 1969.80] I don't have any attendance, I have a presentation compulsory, because if I don't give a presentation, I will fail.
+    SPEAKER_09 [1965.15 → 1969.80] I don't have any attendance, I have a presentation compulsory, because if I don't give a presentation, it will fail.
     SPEAKER_09 [1969.82 → 1972.21] So, I have to give out a force.
     SPEAKER_09 [1972.28 → 1974.68] I never had to give it.
     SPEAKER_09 [1974.70 → 1978.00] So, for the presentation, there was a team of 4 people.
@@ -432,12 +429,12 @@
     SPEAKER_09 [2030.31 → 2032.78] I thought people would laugh at me, comedy.
     SPEAKER_09 [2033.43 → 2034.56] Because you're embarrassed.
     SPEAKER_09 [2034.90 → 2036.30] How did you say that?
-    SPEAKER_09 [2036.32 → 2037.76] I practiced 10 more minutes ago.
-    SPEAKER_09 [2037.78 → 2039.64] I'll see 10 more minutes later.
-    SPEAKER_09 [2039.66 → 2040.98] I'll see 10 more minutes later.
-    SPEAKER_09 [2041.12 → 2042.14] Then I'll see the next one.
-    SPEAKER_09 [2042.86 → 2044.12] Proper, I practiced.
-    SPEAKER_09 [2044.20 → 2046.18] It was my choreographed act of 4 minutes.
+    SPEAKER_09 [2036.32 → 2037.46] I practiced 10 more minutes ago.
+    SPEAKER_09 [2037.50 → 2038.72] I'll see 10 more minutes later.
+    SPEAKER_09 [2039.20 → 2040.16] I'll see 10 more minutes later.
+    SPEAKER_09 [2040.50 → 2041.36] I'll see it later.
+    SPEAKER_09 [2041.38 → 2043.34] I practiced proper.
+    SPEAKER_09 [2043.36 → 2045.84] So, 4 minutes was my choreographed act.
     SPEAKER_09 [2049.26 → 2049.78] End to end.
     SPEAKER_09 [2049.88 → 2051.64] If someone told me in the background, can you repeat it?
     SPEAKER_09 [2051.66 → 2054.10] I had to do this.
@@ -450,13 +447,12 @@
     SPEAKER_09 [2068.47 → 2070.55] In fact, after that, I went to the top of my class.
     SPEAKER_09 [2070.61 → 2070.93] I went there.
     SPEAKER_09 [2070.97 → 2072.73] I didn't even know about the question.
-    SPEAKER_09 [2078.39 → 2084.71] The way you were interacting with everyone in the audience was so good to see all of them.
-    SPEAKER_09 [2088.43 → 2094.20] I was like, what should I tell you?
-    SPEAKER_09 [2094.34 → 2097.72] And when I came out of the world, it just comes natural to me.
+    SPEAKER_09 [2078.39 → 2084.07] The way you were interacting with everyone in the audience was so good to see everyone included.
+    SPEAKER_09 [2084.19 → 2094.20] I was like, what should I tell you?
+    SPEAKER_09 [2094.34 → 2097.72] And where I came out of the world, it just comes natural to me.
     SPEAKER_09 [2103.45 → 2108.01] That feeling, I thought that I am a star now and I am a star.
     SPEAKER_09 [2108.05 → 2119.44] Because after that particular situation, my teacher, he said, this is the same presentation in the second class, because I want other people to see how presentations are given.
-    SPEAKER_09 [2120.56 → 2124.98] So I became, that boosted me so much that I am a hero and I will give up on speech.
-    SPEAKER_09 [2125.08 → 2125.54] It will be fun.
+    SPEAKER_09 [2120.56 → 2125.54] So I became, that boosted me so much that I am a hero, I will give up on speech, it will be fun.
     SPEAKER_09 [2126.76 → 2131.24] And after that, I just craved opportunities after opportunities.
     SPEAKER_09 [2131.60 → 2134.72] First time in life, someone appreciated it.
     SPEAKER_09 [2135.16 → 2136.30] First time in life, I got a compliment.
@@ -483,7 +479,7 @@
     SPEAKER_09 [2223.21 → 2223.99] I'll tell you one thing.
     SPEAKER_09 [2224.97 → 2233.18] The biggest, I think, in my journey, the biggest part with something that has played, that is events like these.
     SPEAKER_09 [2234.20 → 2241.12] Events like these have given me so much and I'll tell you what all gave me and I think everyone gives it that way.
-    SPEAKER_09 [2241.30 → 2243.11] The first thing that I do, I have to look at dreams.
+    SPEAKER_09 [2241.30 → 2243.11] The first thing I do, I have to look at dreams.
     SPEAKER_09 [2245.36 → 2246.20] I enjoy this stage.
     SPEAKER_09 [2246.26 → 2248.10] I know that 4-5 years ago, we were like this.
     SPEAKER_09 [2248.14 → 2249.59] We were attending this event.
@@ -496,29 +492,39 @@
     SPEAKER_09 [2293.11 → 2295.27] So that first step is very important.
     SPEAKER_09 [2295.29 → 2298.63] It teaches you that you can dream big and you can achieve it.
     SPEAKER_09 [2299.53 → 2303.14] Second, there are people here who are business partners.
-    SPEAKER_09 [2303.16 → 2326.71] They teach you something, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food
-    SPEAKER_09 [2327.39 → 2328.99] My brain is running like this.
-    SPEAKER_09 [2329.03 → 2329.37] I'll do that.
-    SPEAKER_09 [2329.43 → 2330.91] I think, what's the need for a wife?
-    SPEAKER_09 [2331.71 → 2333.05] What does it look like every day?
-    SPEAKER_09 [2333.09 → 2334.39] There's no time for it.
-    SPEAKER_09 [2334.41 → 2335.01] This is nonsense.
-    SPEAKER_09 [2335.87 → 2339.24] But when you talk here with someone's brother, they'll go on a march.
-    SPEAKER_09 [2339.26 → 2346.06] Yes, they'll go on a march.
+    SPEAKER_09 [2303.16 → 2326.71] They teach you something, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food, teach you food
+    SPEAKER_09 [2327.39 → 2328.83] My brain is running like this.
+    SPEAKER_09 [2328.87 → 2329.19] I'll do that.
+    SPEAKER_09 [2329.23 → 2330.49] I think, what's wrong with the wife?
+    SPEAKER_09 [2330.51 → 2332.89] What does it look like every day?
+    SPEAKER_09 [2332.91 → 2334.21] Where does it come from?
+    SPEAKER_09 [2334.29 → 2335.01] It's spreading.
+    SPEAKER_09 [2335.87 → 2338.80] But when you talk here with someone's brother, they'll go to Mars.
+    SPEAKER_09 [2338.88 → 2346.06] Yes, how will they go to Mars?
     SPEAKER_09 [2346.14 → 2347.26] So, all the surfers will get here.
-    SPEAKER_09 [2348.48 → 2354.29] The one who saw that, in fact, whenever I went to the event, I was sitting next to him and I thought, I don't think it's a crazy thing.
-    SPEAKER_09 [2354.33 → 2354.85] It's a crazy thing.
-    SPEAKER_09 [2358.39 → 2365.46] And that gives you so much confidence because then you can talk your own language.
-    SPEAKER_09 [2365.96 → 2366.86] So that's the second which happens.
-    SPEAKER_09 [2366.90 → 2367.52] And third, the repel effect.
-    SPEAKER_09 [2367.80 → 2369.02] So that's the second which happens.
+    SPEAKER_09 [2348.48 → 2352.07] The one who saw that, in fact, whenever I went to the event, I was sitting next to him.
+    SPEAKER_09 [2352.09 → 2354.71] And I thought, I don't think it's crazy.
+    SPEAKER_09 [2354.73 → 2355.29] It's very crazy.
+    SPEAKER_09 [2356.85 → 2359.01] And that gives you so much confidence because then you can talk your own language.
+    SPEAKER_09 [2359.03 → 2359.80] So that's the second which happens.
+    SPEAKER_09 [2360.20 → 2361.20] And third, the repel effect.
+    SPEAKER_09 [2361.22 → 2362.32] So that's the second which happens.
+    SPEAKER_09 [2362.34 → 2363.08] And third, the repel effect.
+    SPEAKER_09 [2363.12 → 2364.38] So that's the second which happens.
+    SPEAKER_09 [2364.40 → 2365.02] And third, the repel effect.
+    SPEAKER_09 [2365.10 → 2366.28] And third, the repel effect.
+    SPEAKER_09 [2366.30 → 2366.88] And third, the repel effect.
+    SPEAKER_09 [2366.90 → 2367.82] And third, the repel effect.
+    SPEAKER_09 [2367.84 → 2368.38] And third, the repel effect.
+    SPEAKER_09 [2368.40 → 2369.04] And third, the repel effect.
     SPEAKER_09 [2369.48 → 2370.78] And third, the repel effect.
     SPEAKER_09 [2370.80 → 2371.48] And third, the repel effect.
     SPEAKER_09 [2371.50 → 2372.88] And third, the repel effect.
     SPEAKER_09 [2372.90 → 2373.88] And third, the repel effect.
     SPEAKER_09 [2373.90 → 2374.66] And third, the repel effect.
-    SPEAKER_09 [2374.68 → 2375.64] And third, the repel effect.
-    SPEAKER_09 [2375.70 → 2377.09] And third, the repel effect.
+    SPEAKER_09 [2374.68 → 2375.62] And third, the repel effect.
+    SPEAKER_09 [2375.64 → 2376.22] And third, the repel effect.
+    SPEAKER_09 [2376.24 → 2377.09] And third, the repel effect.
     SPEAKER_09 [2377.11 → 2377.72] And third, the repel effect.
     SPEAKER_09 [2377.74 → 2378.35] And third, the repel effect.
     SPEAKER_09 [2378.39 → 2379.77] And third, the repel effect.
@@ -537,10 +543,10 @@
     SPEAKER_09 [2438.86 → 2440.24] He told me, okay, I'll date.
     SPEAKER_09 [2441.24 → 2442.54] All heard about lap-grown diamonds.
     SPEAKER_09 [2443.66 → 2445.16] I've never actually researched about it.
-    SPEAKER_09 [2445.52 → 2447.94] Probably Sura would have told everyone here.
+    SPEAKER_09 [2445.52 → 2447.94] Probably, if it's Sunra, then everyone will know more about it.
     SPEAKER_09 [2448.64 → 2449.95] But I've never researched about it.
     SPEAKER_09 [2449.99 → 2453.19] I don't know the difference between a normal diamond and lap-grown diamond, right?
-    SPEAKER_09 [2453.67 → 2455.61] He told me that lap-grown diamond is in front of me.
+    SPEAKER_09 [2453.67 → 2455.59] He told me to set up a lap-grown diamond in front of me.
     SPEAKER_09 [2456.72 → 2462.60] Now I'm scared that people are taking pictures of me but they don't ask me.
     SPEAKER_09 [2462.62 → 2464.60] I don't want to answer them.
     SPEAKER_09 [2465.30 → 2468.09] And now that has become instantly I made a note on my phone.
@@ -549,7 +555,7 @@
     SPEAKER_09 [2478.30 → 2483.46] They make you insecure, inferior and that's why you're motivated when you go back home and you want to kill it in life.
     SPEAKER_09 [2484.10 → 2487.46] And the thanks to you guys for doing these events.
     SPEAKER_09 [2488.12 → 2495.57] And it's crazy that Surat is one of the biggest capital in India for businesses.
-    SPEAKER_09 [2496.19 → 2498.19] I mean, it's a fancy word, but it's not that.
+    SPEAKER_09 [2496.19 → 2497.71] I mean, it's a fancy word, but it's not.
     SPEAKER_09 [2504.70 → 2505.70] Thank you.
     SPEAKER_08 [2505.96 → 2506.30] Thank you.
     SPEAKER_08 [2506.34 → 2509.12] Thank you so much, Raj again for being a part of our summit.
@@ -705,11 +711,10 @@
     SPEAKER_02 [2955.47 → 2958.49] I am well-seated, I am profitable as well.
     SPEAKER_02 [2958.71 → 2960.17] I have set up my own factory.
     SPEAKER_02 [2960.23 → 2961.59] I have bought a good last year.
-    SPEAKER_02 [2961.67 → 2962.87] I have also bought a car.
-    SPEAKER_02 [2963.17 → 2964.33] Surat has given me a lot of money.
-    SPEAKER_02 [2964.41 → 2966.61] I don't even have the money to buy a cycle.
-    SPEAKER_02 [2967.29 → 2969.43] So, I mean, really.
-    SPEAKER_02 [2969.55 → 2972.86] But now, when you open a dream after watching the marketing, it is from 2-3 years.
+    SPEAKER_02 [2961.67 → 2963.75] I have also bought a car.
+    SPEAKER_02 [2963.81 → 2965.51] Surat has given me a lot of money.
+    SPEAKER_02 [2965.53 → 2966.61] It is not enough to buy a cycle.
+    SPEAKER_02 [2967.29 → 2972.86] So, I mean, it is really... But when you open a dream after watching the marketing, it is from 2-3 years.
     SPEAKER_02 [2973.36 → 2974.94] So, I am telling you.
     SPEAKER_02 [2974.96 → 2979.09] So, first of all, sir, to come to your sleep, sir, tell us some opportunities for our small businessmen.
     SPEAKER_02 [2979.11 → 2979.65] Especially for me.
@@ -719,8 +724,8 @@
     SPEAKER_02 [3002.37 → 3004.63] Step by step, give me some tips for that.
     SPEAKER_02 [3004.91 → 3006.09] And thank you very much sir.
     SPEAKER_02 [3006.49 → 3008.33] You have given me a chance.
-    SPEAKER_02 [3008.37 → 3012.71] And I think it is my lucky luck today.
-    SPEAKER_02 [3012.85 → 3014.19] And this is my wife's suggestion.
+    SPEAKER_02 [3008.37 → 3012.39] And I think it is my lucky luck today.
+    SPEAKER_02 [3012.49 → 3014.19] And especially my wife has made a suggestion.
     SPEAKER_09 [3017.91 → 3020.48] You know, how did you sound to me?
     SPEAKER_09 [3022.08 → 3032.30] He sounded like that, right?
     SPEAKER_09 [3033.74 → 3035.53] But congratulations on the things you're doing.
@@ -746,14 +751,13 @@
     SPEAKER_09 [3084.61 → 3084.87] Wow.
     SPEAKER_09 [3089.67 → 3092.79] I'll tell you, so usually two ways.
     SPEAKER_09 [3093.67 → 3094.15] First is,
-    SPEAKER_09 [3095.24 → 3097.26] I am interested in the business.
-    SPEAKER_09 [3097.28 → 3101.47] I don't have any industry that I think I don't have a lot of interest in it.
-    SPEAKER_09 [3101.49 → 3102.79] I am going to remove it myself.
-    SPEAKER_09 [3102.81 → 3105.47] I am going to remove it myself.
-    SPEAKER_09 [3105.59 → 3107.37] I am going to find it myself.
+    SPEAKER_09 [3095.24 → 3098.50] I am interested in the business.
+    SPEAKER_09 [3098.52 → 3102.15] I don't have any industry that I think I don't have any coverage.
+    SPEAKER_09 [3102.17 → 3102.89] I just resort to them.
+    SPEAKER_09 [3103.29 → 3107.37] I just resort to them and I just look for them.
     SPEAKER_09 [3108.01 → 3108.61] It doesn't matter.
-    SPEAKER_09 [3108.63 → 3114.12] There are people in my podcast who have turned 2-3 crores.
-    SPEAKER_09 [3114.16 → 3116.10] There are people who have turned 20,000 to 40,000 crores.
+    SPEAKER_09 [3108.63 → 3114.12] There are people on my podcast who have turned 2-3 crores.
+    SPEAKER_09 [3114.14 → 3116.10] And there are people who have turned 20-40 crores.
     SPEAKER_09 [3122.36 → 3125.16] So that's what I do with it.
     SPEAKER_09 [3125.40 → 3126.04] So that is first.
     SPEAKER_09 [3126.70 → 3131.28] Second way is, we have a lot of emails that we want to do.
@@ -775,7 +779,7 @@
     SPEAKER_09 [3184.98 → 3187.96] So, if there are not 10 questions, we reject it.
     SPEAKER_09 [3188.32 → 3190.42] We don't care who you are, what do you do?
     SPEAKER_09 [3191.06 → 3194.10] To me, the most important is, can we teach something to our audience?
-    SPEAKER_09 [3194.78 → 3196.98] So, I think I hope that answered both of your questions.
+    SPEAKER_09 [3194.78 → 3196.84] So, I think I hope that answered both of you.
     SPEAKER_06 [3198.22 → 3198.50] Hello.
     SPEAKER_06 [3198.66 → 3202.20] So, you know, I honestly, I'll tell you.
     SPEAKER_09 [3202.22 → 3211.11] I can't name, but we got an opportunity for India's top five billionaires.
@@ -805,9 +809,9 @@
     SPEAKER_09 [3260.35 → 3263.17] And when we are going to cut it, we will cut it.
     SPEAKER_09 [3263.21 → 3266.11] Because if we want to cut it, we can say it exactly the way it is.
     SPEAKER_09 [3266.77 → 3267.33] And we said no.
-    SPEAKER_09 [3268.43 → 3272.20] I knew that I had put in the podcast, so there were 10 million views.
+    SPEAKER_09 [3268.43 → 3272.20] I knew that there was a podcast, so there were minimum 10 million views.
     SPEAKER_09 [3273.24 → 3275.48] And I was very excited to see who brought it.
-    SPEAKER_09 [3276.26 → 3280.80] But we said no because we don't want anyone to come on our podcast.
+    SPEAKER_09 [3276.26 → 3280.80] But we said no because we don't want anyone to come on a podcast.
     SPEAKER_09 [3281.42 → 3288.93] and talk something about their loved ones or they don't know anything about them or they don't teach my audience.
     SPEAKER_09 [3289.39 → 3296.97] So I think we respect that a lot and that's why our podcast choosing selection is very, very good.
     SPEAKER_06 [3297.37 → 3299.07] Hello.
@@ -815,7 +819,8 @@
     SPEAKER_06 [3300.13 → 3304.89] I'm Needy from Focalus and first of all great to have you here.
     SPEAKER_06 [3304.91 → 3305.80] Thank you.
     SPEAKER_06 [3307.45 → 3313.89] My question is, being a content creator, you constantly have to choose a niche for your audience.
-    SPEAKER_06 [3314.79 → 3321.90] And now, being in a media agency, we also face this issue, like we have lag-ground diamonds.
+    SPEAKER_06 [3314.79 → 3319.50] And now, being in a media agency, we also face this issue.
+    SPEAKER_06 [3319.92 → 3321.90] Like, we have lag-ground diamonds.
     SPEAKER_06 [3322.10 → 3324.98] We have three different clients with lag-ground diamonds.
     SPEAKER_06 [3325.92 → 3331.45] And how do we choose niche, same niche for three different clients with the same industry?
     SPEAKER_09 [3332.28 → 3332.50] Wow.
@@ -836,13 +841,11 @@
     SPEAKER_09 [3377.09 → 3378.63] What do I have to do?
     SPEAKER_09 [3378.91 → 3379.59] Like what am I dreams?
     SPEAKER_09 [3380.01 → 3382.25] I have to become a big entrepreneur.
-    SPEAKER_09 [3382.33 → 3386.07] My biggest challenge is that if I go to Bombay, I don't know anyone.
-    SPEAKER_09 [3386.09 → 3387.39] So probably networking is my challenge.
+    SPEAKER_09 [3382.33 → 3387.39] My biggest challenge is that if I go to Bombay, I don't know anyone, so probably networking is my challenge.
     SPEAKER_09 [3387.89 → 3391.30] And then fifth is that I am right now at this point.
     SPEAKER_09 [3391.84 → 3393.38] What is the job to become that big?
     SPEAKER_09 [3394.98 → 3396.34] Like what is my pain point right now?
-    SPEAKER_09 [3396.60 → 3398.30] So my pain point is that I don't have any skill.
-    SPEAKER_09 [3398.38 → 3401.26] I can't learn anything that I know how to become a big business.
+    SPEAKER_09 [3396.60 → 3401.26] So my pain point is that I don't have any skill, I can't learn anything that I know how to become a big business.
     SPEAKER_09 [3402.87 → 3409.75] So all my content was for a 20-year-old man to go to a big city in a big city to make a startup.
     SPEAKER_09 [3409.79 → 3414.24] He can learn new things, which was his startup.
     SPEAKER_09 [3415.26 → 3416.28] That became my niche.
@@ -875,7 +878,7 @@
     SPEAKER_04 [3528.26 → 3528.60] Really?
     SPEAKER_04 [3528.72 → 3531.82] Because just because you were figuring out, you had kept it this way.
     SPEAKER_09 [3531.98 → 3532.47] Exactly.
-    SPEAKER_09 [3532.62 → 3533.73] That was a reason.
+    SPEAKER_09 [3532.62 → 3533.73] That was the reason.
     SPEAKER_09 [3533.75 → 3538.91] I was like, I am figuring out in my life and how much I have to figure out.
     SPEAKER_09 [3539.31 → 3540.25] What are we doing figuring out?
     SPEAKER_09 [3540.69 → 3540.87] Right?
@@ -913,7 +916,7 @@
     SPEAKER_00 [3628.38 → 3628.58] Hi.
     SPEAKER_00 [3628.82 → 3629.42] Here, Rajya.
     SPEAKER_00 [3629.78 → 3630.42] Hi.
-    SPEAKER_00 [3630.48 → 3631.10] This is Ashna.
+    SPEAKER_00 [3630.48 → 3631.10] This is Ashina.
     SPEAKER_00 [3631.12 → 3632.34] Firstly, welcome to Surat.
     SPEAKER_00 [3632.86 → 3634.89] I really hope you enjoy your stay here.
     SPEAKER_00 [3635.33 → 3637.69] So, I'm a budding new age entrepreneur.
@@ -937,12 +940,11 @@
     SPEAKER_09 [3713.51 → 3723.39] And don't tell me that I'm B2B, I'm B2C, I sell software, I sell construction, I sell everything, I make all the costs, and I make all the money, I make content, I make any niche.
     SPEAKER_09 [3723.41 → 3727.09] Now a friend, he makes swimming pool.
     SPEAKER_09 [3728.55 → 3729.16] Swimming pool.
-    SPEAKER_09 [3730.00 → 3730.62] Bangalore.
-    SPEAKER_09 [3731.28 → 3733.16] I could have never imagined the swimming pool.
-    SPEAKER_09 [3733.20 → 3735.46] But when he talks, so what happens?
-    SPEAKER_09 [3735.50 → 3736.04] Anything can happen.
-    SPEAKER_09 [3736.06 → 3738.57] Content is that that that that that power.
-    SPEAKER_09 [3738.91 → 3739.51] So zero to one.
+    SPEAKER_09 [3730.00 → 3730.40] Bangalore.
+    SPEAKER_09 [3730.44 → 3732.02] I could have never imagined the swimming pool.
+    SPEAKER_09 [3732.04 → 3733.64] But when he talks, so what happens maybe real estate builder.
+    SPEAKER_09 [3733.66 → 3736.52] Like anything can happen content is that that that that that power.
+    SPEAKER_09 [3736.54 → 3737.10] So zero to one.
     SPEAKER_09 [3760.09 → 3761.11] Content 100%.
     SPEAKER_09 [3761.77 → 3774.85] Now the hack to create content and go really, really viral is I'll give you two first is make any content that is savable and shareable.
     SPEAKER_09 [3776.18 → 3780.32] No content likes or comments.
@@ -1005,36 +1007,40 @@
     SPEAKER_09 [3963.40 → 3964.86] Just the node values of the computer.
     SPEAKER_09 [3964.91 → 3972.35] Now I have to give you a wrong tip.
     SPEAKER_09 [3972.67 → 3973.29] I am kidding.
-    SPEAKER_09 [3974.31 → 3981.42] You can take my whole blueprint, you can take my people, you can take my whole company and try to build your podcast and you will be able to build it.
+    SPEAKER_09 [3974.31 → 3975.75] You can take my whole blueprint.
+    SPEAKER_09 [3975.79 → 3976.86] You can take my people.
+    SPEAKER_09 [3976.89 → 3979.92] You can take my whole company and try to build your podcast.
+    SPEAKER_09 [3980.24 → 3981.42] And you will be able to build it.
     SPEAKER_09 [3981.46 → 3981.78] Don't worry.
     SPEAKER_09 [3982.36 → 3982.94] Very open.
     SPEAKER_09 [3985.52 → 3986.28] Very open like that.
-    SPEAKER_09 [3986.86 → 3989.03] So, my first guest,
+    SPEAKER_09 [3986.86 → 3989.03] So my first guest.
     SPEAKER_09 [3990.03 → 3995.92] was my I think 170th or 180th email that somebody said yes.
-    SPEAKER_09 [3996.76 → 4002.19] So I will tell you okay, not a lot of people know this, let me start together podcast.
+    SPEAKER_09 [3996.76 → 4002.19] So I will tell you okay not a lot of people know this, let me start together podcast.
     SPEAKER_09 [4003.08 → 4008.84] I sent all of them to the entrepreneurs, the famous content creators, and all of them.
-    SPEAKER_09 [4009.28 → 4011.46] So, I didn't reply to anyone.
-    SPEAKER_09 [4012.00 → 4014.66] I'll tell you the number of people who are today my friends.
-    SPEAKER_09 [4015.26 → 4019.49] We are like very close buddies and we hang out together and they didn't reply to anyone.
-    SPEAKER_09 [4019.51 → 4022.19] They didn't reply until 6 months.
-    SPEAKER_09 [4022.55 → 4024.27] Back to back, I sent a 10-15 email.
+    SPEAKER_09 [4009.28 → 4011.26] So, no one replied.
+    SPEAKER_09 [4011.32 → 4014.66] So, I will tell you the number of people who are today my friends.
+    SPEAKER_09 [4015.26 → 4019.31] We are like very close buddies and we hang out together and no one replied.
+    SPEAKER_09 [4019.35 → 4022.19] They didn't reply until 6 months.
+    SPEAKER_09 [4022.55 → 4024.27] Back to back, I sent 10-15 emails.
     SPEAKER_09 [4026.07 → 4026.69] Parul Gulati.
     SPEAKER_09 [4028.64 → 4031.30] Parul ended up becoming one of my first guest in the initial.
     SPEAKER_09 [4031.36 → 4034.14] He followed him a lot and then he said yes.
     SPEAKER_09 [4034.45 → 4036.45] Parul had a 10th or 11th podcast with Parul.
     SPEAKER_09 [4037.79 → 4039.11] She was there.
-    SPEAKER_09 [4039.63 → 4040.43] Ranveer alabadiya.
+    SPEAKER_09 [4039.63 → 4040.43] Ranveer Alabadiya.
     SPEAKER_09 [4041.07 → 4041.61] Didn't reply.
-    SPEAKER_09 [4042.09 → 4043.63] For today's reply, he didn't get a chance to reply.
+    SPEAKER_09 [4042.09 → 4043.65] He didn't get a chance to reply today.
     SPEAKER_09 [4044.09 → 4045.07] What's he going to reply?
-    SPEAKER_09 [4045.09 → 4045.79] He won't even email me.
-    SPEAKER_09 [4047.01 → 4050.47] Okay, then Dr. Ritesh Malik for the longest time he didn't reply.
+    SPEAKER_09 [4045.09 → 4047.25] He won't even email him.
+    SPEAKER_09 [4047.29 → 4050.47] Then Dr. Ritesh Malik for the longest time he didn't reply.
     SPEAKER_09 [4051.49 → 4052.57] Then Kunal Shah.
     SPEAKER_09 [4053.46 → 4053.98] Didn't reply.
     SPEAKER_09 [4054.34 → 4054.98] Kamat Brothers.
     SPEAKER_09 [4055.58 → 4056.06] Didn't reply.
     SPEAKER_09 [4056.12 → 4059.42] Nikhil is one of my closest big brother type now.
-    SPEAKER_09 [4059.82 → 4063.84] Like he's a person who I go to advice for now, he didn't reply to me at that time.
+    SPEAKER_09 [4060.10 → 4062.58] He's a person who I go to advice for now.
+    SPEAKER_09 [4062.66 → 4063.84] He didn't reply to me at that time.
     SPEAKER_09 [4065.14 → 4067.83] Then Masoom Minawala, no reply.
     SPEAKER_09 [4068.25 → 4076.95] So all these people, like all of your names today, probably they have good friends or someone who are collaborators or we belong to the same industry.
     SPEAKER_09 [4077.57 → 4078.45] None of them replied.
@@ -1068,7 +1074,7 @@
     SPEAKER_09 [4179.29 → 4179.71] They replied.
     SPEAKER_01 [4179.81 → 4185.97] So you have to keep chasing that.
     SPEAKER_09 [4186.15 → 4187.95] You just have to keep doing it, right?
-    SPEAKER_09 [4187.98 → 4192.16] In fact, recently, so I reached out to
+    SPEAKER_09 [4187.98 → 4192.16] In fact, recently... So I reached out to...
     SPEAKER_09 [4193.93 → 4196.79] I read out to Sundar Pichai, Google CEO.
     SPEAKER_09 [4197.17 → 4199.52] And one of my very close friends, he did a podcast with him.
     SPEAKER_09 [4204.70 → 4208.74] So I keep doing it even today every day and a lot of people don't reply.
@@ -1164,7 +1170,7 @@
     SPEAKER_03 [4381.87 → 4385.80] On the behalf of the IVGRO team and 21 by 72, so we loved having you.
     SPEAKER_03 [4385.85 → 4386.58] Absolutely loved.
     SPEAKER_03 [4386.62 → 4388.16] I think we're all in charge for that.
-    SPEAKER_03 [4388.24 → 4389.98] Let's give them a big round of applause.
+    SPEAKER_03 [4388.24 → 4389.98] Let's give him a big round of applause.
     SPEAKER_03 [4390.00 → 4391.12] Thank you.
     SPEAKER_03 [4394.68 → 4396.76] We just want to know your experience in Surat.
     SPEAKER_03 [4397.04 → 4400.04] I hope you loved being here as much as we loved having you.
@@ -1181,21 +1187,13 @@
     SPEAKER_09 [4448.37 → 4450.67] And I loved you guys hospitality.
     SPEAKER_09 [4451.11 → 4460.68] It's you guys are really really kind and let me tell you one thing guys This guy both of them Give it I jump first time room as I know.
     SPEAKER_09 [4461.60 → 4463.42] How do people enter in the room?
-    SPEAKER_09 [4467.08 → 4467.36] Hi!
-    SPEAKER_09 [4467.40 → 4467.52] Hi!
-    SPEAKER_09 [4467.62 → 4467.78] Hi!
-    SPEAKER_09 [4467.80 → 4468.06] Hi!
-    SPEAKER_09 [4468.10 → 4468.20] Hi!
-    SPEAKER_09 [4468.22 → 4468.48] Hi!
-    SPEAKER_09 [4468.50 → 4468.77] Hi!
-    SPEAKER_09 [4468.82 → 4468.97] Hi!
-    SPEAKER_09 [4469.01 → 4469.15] Hi!
-    SPEAKER_09 [4469.16 → 4469.27] Hi!
-    SPEAKER_09 [4469.28 → 4469.39] Hi!
-    SPEAKER_09 [4469.43 → 4469.47] Hi!
-    SPEAKER_09 [4469.48 → 4469.61] Hi!
-    SPEAKER_09 [4469.63 → 4469.73] Hi!
-    SPEAKER_09 [4469.77 → 4469.81] Hi!
+    SPEAKER_09 [4467.08 → 4467.52] Hi!
+    SPEAKER_09 [4467.62 → 4469.73] Hi, Rajesh, Tamrati, right?
+    SPEAKER_09 [4470.75 → 4471.87] These guys entered like this.
+    SPEAKER_13 [4473.65 → 4474.67] You're Rajesh!
+    SPEAKER_09 [4474.79 → 4476.67] So good to see you, man!
+    SPEAKER_09 [4476.95 → 4480.80] If it's so good, dude, we are so excited to hear.
+    SPEAKER_09 [4480.90 → 4487.52] I was like... I woke up at 5 in the morning, I was sleeping for two hours yesterday.
     SPEAKER_09 [4488.40 → 4490.16] I'm out, can I say?
     SPEAKER_09 [4490.74 → 4494.91] And to actors, like, yeah man, super excited, let's go to this.
     SPEAKER_09 [4495.95 → 4499.58] The kind of energy these guys give is so contagious.
@@ -1207,8 +1205,7 @@
     SPEAKER_11 [4518.03 → 4522.18] And thank you so much for the patience you answered each and every question to your best.
     SPEAKER_11 [4522.22 → 4523.14] Thank you so much.
     SPEAKER_09 [4523.16 → 4523.66] Thank you.
-    SPEAKER_09 [4523.68 → 4523.96] Thank you.
-    SPEAKER_09 [4523.98 → 4524.68] Thank you.
+    SPEAKER_09 [4523.68 → 4524.08] Thank you.
     SPEAKER_11 [4525.52 → 4530.30] And to felicitate you, please, we would like to welcome all the I.V.Y.
     SPEAKER_11 [4530.80 → 4537.87] growth associates founders and the title sponsor, Ayaan team Ayaani, lab-grown diamonds.
     SPEAKER_11 [4538.31 → 4545.90] So anybody from team Ayaani and Steamhouse, we welcome Jheel Boudia and Shivangi Agarwal from Steamhouse.

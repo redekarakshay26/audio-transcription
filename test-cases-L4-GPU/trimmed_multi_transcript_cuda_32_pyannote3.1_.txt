@@ -1,5 +1,5 @@
 =================================================================
-  Run Timestamp    : 2026-02-19 15:05:17
+  Run Timestamp    : 2026-02-19 08:36:34
 =================================================================
 
 [Config]
@@ -7,12 +7,12 @@
   device           : cuda
   compute_type     : float16
   language         : en
-  batch_size       : 8
+  batch_size       : 32
   diarize_model    : pyannote/speaker-diarization-3.1
 
 [GPU]
-  name             : Tesla T4
-  vram_total       : 14.74 GB
+  name             : NVIDIA L4
+  vram_total       : 22.28 GB
   cuda_version     : 12.1
   cudnn_version    : 8902
   device_index     : 0
@@ -23,12 +23,12 @@
   total segments   : 105
 
 [Timings]
-  audio_load       : 3.24s  (0.05m)
-  transcription    : 2.96s  (0.05m)
-  alignment        : 7.48s  (0.12m)
-  diarization      : 20.42s  (0.34m)
-  speaker_assign   : 1.97s  (0.03m)
-  total            : 38.49s  (0.64m)
+  audio_load       : 3.22s  (0.05m)
+  transcription    : 2.18s  (0.04m)
+  alignment        : 6.66s  (0.11m)
+  diarization      : 13.24s  (0.22m)
+  speaker_assign   : 2.25s  (0.04m)
+  total            : 30.08s  (0.50m)
 
 [Transcript]
 -----------------------------------------------------------------
@@ -62,7 +62,7 @@
     SPEAKER_02 [ 85.79 →  92.02] And in that, we have specially said to producers and makers that please bring these young guys.
     SPEAKER_02 [ 92.04 →  94.66] Because their ideas are different and they are ready to change the world.
     SPEAKER_02 [ 94.68 →  98.28] We used to teach our Maam Mar market teachers history.
-    SPEAKER_02 [ 98.34 → 100.32] And today, they are making history.
+    SPEAKER_02 [ 98.34 → 101.46] And these people are making history today.
     SPEAKER_01 [101.54 → 109.79] What is the core value of your leadership today that keeps you grounded in a changing environment?
     SPEAKER_01 [110.69 → 111.75] Maybe we can begin with Aman?
     SPEAKER_02 [113.54 → 113.80] Hi.
