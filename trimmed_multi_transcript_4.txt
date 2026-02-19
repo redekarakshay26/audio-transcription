@@ -1,0 +1,136 @@
+=================================================================
+  Run Timestamp    : 2026-02-19 07:16:10
+=================================================================
+
+[Config]
+  model_size       : base
+  device           : cpu
+  compute_type     : float32
+  language         : en
+  batch_size       : 4
+  diarize_model    : pyannote/speaker-diarization-3.0
+
+[GPU]
+  GPU not available (running on CPU)
+
+[Audio]
+  file             : trimmed_multi.webm
+  duration         : 487.7s  (8.13m)
+  total segments   : 105
+
+[Timings]
+  audio_load       : 3.04s  (0.05m)
+  transcription    : 40.13s  (0.67m)
+  alignment        : 34.36s  (0.57m)
+  diarization      : 181.12s  (3.02m)
+  speaker_assign   : 2.18s  (0.04m)
+  total            : 263.05s  (4.38m)
+
+[Transcript]
+-----------------------------------------------------------------
+    SPEAKER_04 [  0.15 →   7.45] When I work with a lot of Gen Zs and Millennials and I see them coming to the job as if, you know, they do us a favor working for us.
+    SPEAKER_04 [  8.13 →   9.39] But I love working with them.
+    SPEAKER_00 [  9.59 →  13.63] You know, this generation is brutally honest and that's why that's it.
+    SPEAKER_00 [ 14.02 →  16.70] You know, they will not take a nonsense from anybody.
+    SPEAKER_03 [ 16.72 →  20.64] Our basic needs of our infrastructure, opportunities, options are set.
+    SPEAKER_03 [ 20.66 →  23.22] So why don't we choose a certain type of things?
+    SPEAKER_03 [ 29.46 →  31.42] Why we are dreamy and we are delulu?
+    SPEAKER_03 [ 31.70 →  32.48] And that's our power.
+    SPEAKER_04 [ 32.90 →  38.34] First I would like to tell Raj, you are not the only Genji here, right?
+    SPEAKER_04 [ 38.52 →  42.01] You don't try to say that you are Genji, we are not, right?
+    SPEAKER_04 [ 42.35 →  43.41] All of us here are.
+    SPEAKER_00 [ 43.49 →  45.55] And he is Alpha.
+    SPEAKER_04 [ 45.59 →  48.61] The gen Alpha comes from this guy.
+    SPEAKER_02 [ 48.95 →  49.63] I agree.
+    SPEAKER_02 [ 49.69 →  55.13] Yes, they are misunderstood, but behind that chaos lies a certain sense of purpose to
+    SPEAKER_02 [ 56.01 →  59.08] Do exactly what we are all aiming to do, which is to fix the country.
+    SPEAKER_03 [ 59.44 →  60.52] Do we need to learn things?
+    SPEAKER_03 [ 60.66 →  60.92] Yes.
+    SPEAKER_03 [ 61.48 →  62.64] Are we immature?
+    SPEAKER_03 [ 62.80 →  63.04] Yes.
+    SPEAKER_03 [ 63.20 →  65.94] But that's the beauty, because our innocence is of a power.
+    SPEAKER_03 [ 66.20 →  70.72] The first generation we used to think of, how do we call it in India?
+    SPEAKER_03 [ 70.88 →  73.40] Now, we are thinking, okay, India is a small level.
+    SPEAKER_03 [ 73.44 →  75.42] How do we take India to the world?
+    SPEAKER_00 [ 75.56 →  78.21] They are not the consumers of content.
+    SPEAKER_00 [ 78.97 →  82.45] But they are the ones who are going to be the creators of content tomorrow.
+    SPEAKER_04 [ 82.95 →  85.39] And now this year, our season 5 is about to come.
+    SPEAKER_04 [ 85.79 →  92.02] And in that, we have specially asked producers and makers to please bring these young guys.
+    SPEAKER_04 [ 92.04 →  94.66] Because their ideas are different and they are ready to change the world.
+    SPEAKER_04 [ 94.68 →  98.28] We used to teach our Maam Mar market teachers history.
+    SPEAKER_04 [ 98.34 → 100.32] And today, they are making history.
+    SPEAKER_01 [101.54 → 109.79] What is the core value of your leadership today that keeps you grounded in a changing environment?
+    SPEAKER_01 [110.69 → 111.75] Maybe we can begin with Aman?
+    SPEAKER_04 [113.54 → 113.80] Hi.
+    SPEAKER_04 [114.52 → 115.52] Good to see you again, Mike.
+    SPEAKER_04 [116.10 → 124.35] I was scared when they said that you are interviewing us because brute is normally brutal for people, but please be kind to us today, all right?
+    SPEAKER_04 [125.65 → 126.27] I'll do my best.
+    SPEAKER_04 [127.58 → 131.81] So, I have seen a lot of changes happen.
+    SPEAKER_04 [132.11 → 138.63] When I entered the workforce, I remember, my mom was also a teacher in Don Bosque School.
+    SPEAKER_04 [139.19 → 143.75] But when I entered the workforce, actually, I used to play chess before interviews.
+    SPEAKER_04 [143.81 → 146.35] When you go to the interview, it would be a good interview.
+    SPEAKER_04 [149.41 → 157.73] And today, when I work with a lot of Gen Zs and Millennials, and I see them coming to the job as if they do us a favor working for us.
+    SPEAKER_04 [159.21 → 160.99] So it's a very different world.
+    SPEAKER_04 [162.27 → 163.53] But I love working with them.
+    SPEAKER_04 [164.19 → 167.25] They bring a different perspective.
+    SPEAKER_04 [167.87 → 172.96] They may not have the right experience which others may have, but their exposure is amazing.
+    SPEAKER_04 [173.34 → 176.52] And if you don't learn how to
+    SPEAKER_04 [177.16 → 178.18] walk together with them.
+    SPEAKER_04 [179.26 → 193.80] Then today companies like us will become probably dead in a few years because they are the ones who know what moves in the market, what is the right way to approach the consumers, what is the right marketing happening.
+    SPEAKER_04 [193.88 → 196.16] I will tell you a very small story.
+    SPEAKER_04 [197.40 → 200.92] You know, I was... I take a lot of interns from schools.
+    SPEAKER_04 [201.00 → 203.22] I made a lot of school directors.
+    SPEAKER_04 [203.65 → 207.59] So, when interns come, I make them sit with my marketing team.
+    SPEAKER_04 [207.85 → 214.85] And actually, it's a refresher course for my marketing team because what these guys bring to the table is very fresh thinking.
+    SPEAKER_04 [215.61 → 217.21] And I started, I was on Facebook.
+    SPEAKER_04 [217.41 → 220.43] And there was somebody who was an interning with us, 21-year-old.
+    SPEAKER_04 [220.51 → 221.37] He was an Instagram.
+    SPEAKER_04 [222.07 → 224.46] And today, all these young guys are not on Instagram.
+    SPEAKER_04 [224.50 → 229.64] They are on Snapchat because all the uncles, all of us in the room, except Sunil sir, you know, he's still young.
+    SPEAKER_04 [230.66 → 235.08] All of us are now still on Instagram, but these guys are on Snapchat, right?
+    SPEAKER_04 [235.12 → 236.52] So they are moving much faster.
+    SPEAKER_04 [236.58 → 238.31] Maybe in five years, they'll have another thing.
+    SPEAKER_04 [238.32 → 242.77] So if I don't learn from them, if I don't adapt to what these guys want, then I'll die.
+    SPEAKER_04 [242.89 → 255.15] So that's the changing workforce where I keep, you know, my mindset and my leadership is more with changing with these changing people and rather than putting them on what I know rather than it's more to learn from them than others.
+    SPEAKER_04 [255.19 → 256.61] So I learn a lot from them.
+    SPEAKER_01 [257.17 → 270.32] Aman began by saying, Gen Z is tough to work with, but everybody is selling to Gen Z, wants to understand Gen Z. So hang on to that, Mike, because you're closest to Gen Z, Shantinam coming to ask you this question.
+    SPEAKER_01 [270.88 → 278.00] Since we are talking about Wixit Bharat, what gives you hope for Gen Z?
+    SPEAKER_01 [278.30 → 281.14] What are the good things that you see in Gen Z when you work with them?
+    SPEAKER_01 [281.58 → 284.60] And probably even what makes Gen Z good leaders?
+    SPEAKER_02 [286.61 → 290.91] OK, I am so glad you asked that question because yes, they are a misunderstood bunch.
+    SPEAKER_02 [293.23 → 297.59] What gives me the most hope is that Gen Z cannot separate profession and purpose.
+    SPEAKER_02 [298.79 → 302.12] They just cannot act on anything that does not give them fulfillment.
+    SPEAKER_02 [302.98 → 308.56] It has to align at the end of the day to quantify what is the impact that they're actually making.
+    SPEAKER_02 [309.08 → 310.54] Be it in a corporate, in a startup.
+    SPEAKER_02 [311.18 → 315.88] And if the answer is just another soldier, it really doesn't align with them.
+    SPEAKER_02 [316.72 → 320.26] which they're channeling to not ask for a seat at the table.
+    SPEAKER_02 [320.54 → 322.50] That's something that ended with millennials.
+    SPEAKER_02 [323.39 → 325.63] Gen Z is more concerned with how do they fix the world?
+    SPEAKER_02 [326.97 → 327.65] They're empathetic.
+    SPEAKER_02 [328.15 → 329.15] They want to fix the world.
+    SPEAKER_02 [329.83 → 331.85] They have their ideas of how they want to do it.
+    SPEAKER_02 [332.45 → 336.82] They just want a little bit of empowerment and support on how to go about doing that.
+    SPEAKER_02 [337.94 → 340.44] And having said that, they're loud, they're emotional.
+    SPEAKER_02 [342.48 → 345.10] They are very outspoken about justice.
+    SPEAKER_02 [346.13 → 349.25] And they were outspoken about what is unfair and what is right.
+    SPEAKER_02 [350.35 → 361.91] And I think India does not have linear problems anymore like the rest of the world and that is the exact kind of noise that we need from a generation that's going to be the next leaders of the country.
+    SPEAKER_02 [362.77 → 372.69] So yes, they are misunderstood, but behind that chaos lies a certain sense of purpose to do exactly what we are all aiming to do, which is to fix the country.
+    SPEAKER_02 [373.65 → 377.69] And I think they just need a little bit of belief from everyone who's older to them.
+    SPEAKER_01 [378.78 → 385.98] Well, put, I always call them the AND generation, because yes, they want this, but it has to have a purpose behind it as well.
+    SPEAKER_01 [386.00 → 386.92] So this plus one.
+    SPEAKER_01 [387.62 → 395.95] Mr. Shetty, you just heard what Chantanu said about the young generation Gen Z, with the purpose in building a Vixen Bharat.
+    SPEAKER_01 [398.09 → 402.69] Now that we know what Gen Z is about, and we have Jan Alpha, which is also coming.
+    SPEAKER_01 [406.42 → 423.08] What do you think we can change that one lever in education in schools, that one policy that we can change, to give us a quantum leap, give Gen Z, give Gen Alpha a quantum leap towards a fixed path?
+    SPEAKER_00 [425.15 → 429.59] I think what's very, very important, we have to stop this system of Ratta.
+    SPEAKER_00 [431.05 → 434.17] Yane, you know, exactly.
+    SPEAKER_00 [434.45 → 436.71] From Ratta, we've got to get back to roots.
+    SPEAKER_00 [437.59 → 447.54] Once again, I say the Guru Kul, we've got to talk to people about the kids have to understand their culture where they come from, how that, what kind of a difference it matters.
+    SPEAKER_00 [447.76 → 454.98] We don't have to teach children to be a part of placements, but we've got to teach them, they've got to learn purpose.
+    SPEAKER_00 [455.82 → 459.75] You know, we are preparing kids to be placed here and to be placed here.
+    SPEAKER_00 [459.81 → 466.87] Let not look at them as someone that we are building into unicorns, but human icons, you know, with a heart.
+    SPEAKER_00 [466.99 → 468.29] They say, hustling.
+    SPEAKER_00 [468.37 → 469.37] You talk about hustling.
+    SPEAKER_00 [469.39 → 475.93] You know, it was mentioned when Aman K. Mohan K. is hustling, but he's hustling with an heart.
+    SPEAKER_00 [477.37 → 482.68] When you hustle with your heart, things work out, and that's why boat is what boat is.
+    SPEAKER_00 [483.91 → 486.49] If you look at Raj, everybody talks about
+=================================================================
