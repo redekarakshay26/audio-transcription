@@ -1,0 +1,648 @@
+=================================================================
+  Run Timestamp    : 2026-02-19 08:59:26
+=================================================================
+
+[Config]
+  model_size       : base
+  device           : cuda
+  compute_type     : float16
+  language         : en
+  batch_size       : 16
+  diarize_model    : pyannote/speaker-diarization-3.1
+
+[GPU]
+  name             : NVIDIA L4
+  vram_total       : 22.28 GB
+  cuda_version     : 12.1
+  cudnn_version    : 8902
+  device_index     : 0
+
+[Audio]
+  file             : 35min_disscussion.webm
+  duration         : 2128.1s  (35.47m)
+  total segments   : 613
+
+[Timings]
+  audio_load       : 12.88s  (0.21m)
+  transcription    : 6.79s  (0.11m)
+  alignment        : 25.45s  (0.42m)
+  diarization      : 60.62s  (1.01m)
+  speaker_assign   : 8.92s  (0.15m)
+  total            : 116.88s  (1.95m)
+
+[Transcript]
+-----------------------------------------------------------------
+    SPEAKER_11 [  0.35 →  14.28] When you go back home and you want to kill it in life and the thanks to you guys for doing these events and It's crazy that you Surat is one of the biggest capital in India for businesses.
+    SPEAKER_11 [ 14.88 →  16.93] I mean start a fancy world, but then they are here
+    SPEAKER_11 [ 23.40 →  24.40] Thank you.
+    SPEAKER_02 [ 24.46 →  27.82] Thank you so much, Raj again for being a part of our summit.
+    SPEAKER_02 [ 27.92 →  30.00] It really means a lot from the bottom of our hearts.
+    SPEAKER_02 [ 30.04 →  30.66] Thank you so much.
+    SPEAKER_13 [ 30.88 →  31.22] Thank you.
+    SPEAKER_13 [ 31.24 →  33.02] I think we'll open the floor for the audience.
+    SPEAKER_13 [ 33.08 →  33.78] You can have a seat.
+    SPEAKER_13 [ 33.90 →  34.68] So, Anuj.
+    SPEAKER_13 [ 35.02 →  35.34] Hi, Raj.
+    SPEAKER_13 [ 35.42 →  36.47] Namaskar.
+    SPEAKER_13 [ 37.01 →  38.21] D-Shok.
+    SPEAKER_03 [ 38.27 →  38.77] D-Shok.
+    SPEAKER_03 [ 39.03 →  39.27] That's right.
+    SPEAKER_03 [ 39.29 →  39.53] D-Shok.
+    SPEAKER_03 [ 39.61 →  39.83] Yeah.
+    SPEAKER_11 [ 40.09 →  41.69] Everybody say, hi, D-Shok.
+    SPEAKER_11 [ 42.59 →  42.99] Hi, D-Shok.
+    SPEAKER_03 [ 43.83 →  44.35] Thank you guys.
+    SPEAKER_03 [ 44.39 →  44.77] Thank you so much.
+    SPEAKER_03 [ 44.79 →  45.59] That's so, so mom.
+    SPEAKER_03 [ 46.97 →  50.59] So thank you so much for that.
+    SPEAKER_03 [ 52.43 →  53.03] Thank you so much.
+    SPEAKER_03 [ 53.05 →  57.41] Raj, I just want to ask, today a lot of people have done a lot of things.
+    SPEAKER_03 [ 57.85 →  60.05] How we grow, how we do better things in life.
+    SPEAKER_03 [ 63.42 →  64.92] How do you hold yourself?
+    SPEAKER_03 [ 64.94 →  68.12] Because when there is darkness, you have to bring light for yourself.
+    SPEAKER_03 [ 68.50 →  69.38] I don't think light comes.
+    SPEAKER_03 [ 69.42 →  71.40] We don't have to worry about that.
+    SPEAKER_03 [ 72.16 →  74.34] How can someone just grow from that darkness?
+    SPEAKER_03 [ 74.50 →  76.36] Because I think no one has spoken about that.
+    SPEAKER_03 [ 76.89 →  78.77] You are the perfect person to speak about that, bro.
+    SPEAKER_11 [ 79.85 →  82.77] I'll tell you a very basic answer.
+    SPEAKER_11 [ 82.85 →  85.45] I'm not as philosophical as I'm not going to be able to answer that.
+    SPEAKER_11 [ 85.47 →  89.19] Probably somebody would be able to give you proper curated framework.
+    SPEAKER_11 [ 89.27 →  90.37] What should I do when I go out?
+    SPEAKER_11 [ 91.54 →  93.16] I think that's the only question I ask.
+    SPEAKER_11 [ 93.18 →  93.24] And.
+    SPEAKER_11 [ 93.26 →  93.34] Fail.
+    SPEAKER_11 [ 93.56 →  93.70] And.
+    SPEAKER_11 [ 93.72 →  93.76] Me.
+    SPEAKER_11 [ 95.34 →  95.53] Say.
+    SPEAKER_11 [ 95.69 →  96.27] Bandani.
+    SPEAKER_11 [ 96.29 →  97.81] This time.
+    SPEAKER_11 [ 97.83 →  97.89] And.
+    SPEAKER_11 [ 97.91 →  98.11] And what?
+    SPEAKER_11 [106.37 → 107.09] I am not earning money.
+    SPEAKER_11 [107.13 → 109.27] I will get a job.
+    SPEAKER_11 [109.29 → 109.97] I will not get a job.
+    SPEAKER_11 [110.05 → 112.95] I will do some freelancing.
+    SPEAKER_11 [113.67 → 117.08] So I always just think about, what else will happen?
+    SPEAKER_11 [117.16 → 118.20] I mean, what is it?
+    SPEAKER_11 [118.92 → 121.62] So to me, I don't see anything as failure.
+    SPEAKER_11 [121.64 → 125.22] I am very irrationally optimistic.
+    SPEAKER_11 [125.40 → 129.41] I feel that I am going to achieve a lot in the world and I am going to achieve everything.
+    SPEAKER_11 [134.30 → 138.24] So, to me, that's very, just like a crazy belief.
+    SPEAKER_11 [138.82 → 147.75] So, if I'm a girta, I feel like, and what?
+    SPEAKER_11 [148.27 → 149.65] In fact, I'll tell you very stupid thing.
+    SPEAKER_11 [149.69 → 152.01] I feel the face that I'm in right now.
+    SPEAKER_11 [153.19 → 156.99] One day, when I look back to this face, I'll call it struggling face.
+    SPEAKER_11 [157.87 → 160.99] Like, this is the struggle phase because we are going to be so big than this.
+    SPEAKER_11 [164.11 → 166.09] And that is what I feel, that is my philosophy.
+    SPEAKER_03 [166.49 → 168.13] So, when we fall, then and what?
+    SPEAKER_03 [169.18 → 169.51] I'm glad.
+    SPEAKER_03 [169.59 → 170.50] Thank you so much, Raja Bhai.
+    SPEAKER_03 [170.51 → 171.08] Thank you so much.
+    SPEAKER_04 [174.78 → 175.60] Good evening, sir.
+    SPEAKER_04 [176.04 → 179.28] My name is Viveng Gupta and I want to ask you two questions.
+    SPEAKER_04 [180.62 → 184.56] First question is, what is your biggest weakness and strength?
+    SPEAKER_04 [185.56 → 187.74] Second is, define yourself in one word.
+    SPEAKER_11 [188.46 → 188.84] Define?
+    SPEAKER_04 [189.30 → 190.72] Yourself in one word.
+    SPEAKER_11 [190.74 → 191.76] Why?
+    SPEAKER_11 [191.80 → 193.60] HR, who did you get here?
+    SPEAKER_11 [196.21 → 197.01] Tell me, please.
+    SPEAKER_11 [198.43 → 200.75] By the way, commendable, bro.
+    SPEAKER_11 [201.47 → 203.05] Can we just have a clap for him?
+    SPEAKER_11 [203.85 → 204.41] Look at him.
+    SPEAKER_11 [205.27 → 206.29] Look at his age.
+    SPEAKER_11 [206.57 → 207.24] It's crazy.
+    SPEAKER_11 [208.81 → 216.04] Vivek, thanks for asking me such insightful, deep questions, which I can never answer, but I'll try to.
+    SPEAKER_11 [218.08 → 220.52] What's my biggest strength and biggest weakness?
+    SPEAKER_11 [222.36 → 226.78] My biggest strength is, I think, on people obsessed.
+    SPEAKER_11 [228.04 → 228.92] That is my strength.
+    SPEAKER_11 [229.04 → 230.22] And you can see that in my work.
+    SPEAKER_11 [230.60 → 231.71] You can see that in my podcast.
+    SPEAKER_11 [231.72 → 233.49] You can see that in every start of that I do.
+    SPEAKER_11 [234.15 → 235.21] I think my biggest strength is
+    SPEAKER_11 [236.27 → 243.57] I want to give value to everyone who's listening to me, and I want to bring some perspective, which I've never heard before.
+    SPEAKER_11 [244.61 → 247.85] So I'm very, very, very people obsessed.
+    SPEAKER_11 [247.87 → 260.78] I want to make sure that everyone who's giving me even one minute is either getting to know a newer side of me, or getting to learn something new, or is actually thinking that he has made me feel better about myself.
+    SPEAKER_11 [261.74 → 263.20] So that is my biggest strength.
+    SPEAKER_11 [263.44 → 264.74] I am people first.
+    SPEAKER_11 [264.98 → 272.51] Every time I go up on the stage or when I do a podcast, I never think about how I am going to perform or what I'm going to do on stage.
+    SPEAKER_11 [272.79 → 274.09] I always think about what are they going to get?
+    SPEAKER_11 [275.01 → 275.87] Are they getting the real me?
+    SPEAKER_11 [276.35 → 277.45] Are they getting the real value?
+    SPEAKER_11 [277.55 → 278.59] Are they getting education?
+    SPEAKER_11 [279.15 → 279.43] Whatever.
+    SPEAKER_11 [279.45 → 281.99] So I think that's my biggest strength that I'm people first.
+    SPEAKER_11 [283.17 → 286.89] I don't know if it's strength for everybody, but you know, for me, it really worked in my career.
+    SPEAKER_11 [288.25 → 289.68] My biggest weakness is
+    SPEAKER_11 [291.30 → 292.40] I am delusional.
+    SPEAKER_11 [294.46 → 295.90] I live in my own delulu.
+    SPEAKER_11 [296.61 → 297.43] It's my own world.
+    SPEAKER_11 [297.45 → 302.75] I think my recording is the same and it's very good.
+    SPEAKER_11 [303.31 → 305.81] So I think that delusion sometimes doesn't help you.
+    SPEAKER_11 [306.47 → 313.63] Sometimes you have to be little practical, sometimes you have to be realistic, sometimes you have to take calculated risks, you have to be little analytical about your life.
+    SPEAKER_11 [314.41 → 315.15] I think I'm not that.
+    SPEAKER_11 [318.28 → 328.35] calculated new, my real risk I was new, I function out of optimism and I think the worst advice which people give is be practical.
+    SPEAKER_11 [329.29 → 331.09] I think that's the worst advice that anybody can give you.
+    SPEAKER_11 [331.45 → 340.65] So to me that is me and I think that is a weakness because in some cases I've tried to be extremely irrationally optimistic and it has not worked for me.
+    SPEAKER_11 [341.03 → 343.19] So that is that I can say is one of my biggest weakness.
+    SPEAKER_11 [346.71 → 351.41] If I have to define myself in one word, I would say relentless.
+    SPEAKER_11 [355.83 → 365.12] And the reason to that is, as I say, this is a lot in my organization to my people, the day we are not relentless, I feel we are asless.
+    SPEAKER_11 [366.40 → 367.14] Am I relentless?
+    SPEAKER_11 [367.86 → 371.74] If you look at our podcast or if you look at our startup, you look at
+    SPEAKER_11 [372.94 → 374.78] We are not the most knowledgeable ones.
+    SPEAKER_11 [375.36 → 377.04] We are not the most insightful one.
+    SPEAKER_11 [377.22 → 378.58] We are not the most good looking one.
+    SPEAKER_11 [379.00 → 382.29] We are not the most skilled or talented one.
+    SPEAKER_11 [382.47 → 385.17] We don't have the biggest money backing us.
+    SPEAKER_11 [385.47 → 386.63] We don't have biggest sponsors.
+    SPEAKER_11 [386.79 → 388.67] We don't have the biggest setup of the production unit.
+    SPEAKER_11 [389.03 → 390.87] We don't have anything which is number one.
+    SPEAKER_11 [392.01 → 395.28] The only quality that we have is we outwork everybody.
+    SPEAKER_11 [396.36 → 398.30] You try to beat me in my game and I will beat you.
+    SPEAKER_11 [403.77 → 405.13] Like open challenge to everybody.
+    SPEAKER_11 [405.43 → 408.74] You try to do, let's say, think about podcasts because most people know me through podcasts.
+    SPEAKER_11 [409.12 → 409.82] Let's say podcasts.
+    SPEAKER_11 [409.98 → 410.66] You try to do it.
+    SPEAKER_11 [411.76 → 413.22] You do once they're better than me.
+    SPEAKER_11 [413.74 → 416.10] My whole team is going to go underground for six months.
+    SPEAKER_11 [416.12 → 417.08] We'll come back and we'll beat you.
+    SPEAKER_11 [418.64 → 419.90] You do two steps better than me.
+    SPEAKER_11 [420.22 → 421.26] I'll do 20 steps better than me.
+    SPEAKER_11 [422.36 → 423.88] We just out to work everybody.
+    SPEAKER_11 [424.67 → 428.75] So relentless is the word which I think because I think I think we do a lot of work.
+    SPEAKER_11 [432.55 → 433.63] I hope that answers your question.
+    SPEAKER_11 [435.43 → 436.07] Okay.
+    SPEAKER_11 [436.47 → 439.92] Can we go at the back, the guy in yellow t-shirt?
+    SPEAKER_12 [441.32 → 441.66] Hi, sir.
+    SPEAKER_12 [441.68 → 442.36] Hi.
+    SPEAKER_11 [442.40 → 442.52] Hi.
+    SPEAKER_12 [442.84 → 443.02] Hi.
+    SPEAKER_12 [443.08 → 444.64] I've found out in a CEO of Sagar Pafyum.
+    SPEAKER_12 [444.82 → 446.12] Now I've given everyone an intro.
+    SPEAKER_12 [446.32 → 447.08] You too, sir.
+    SPEAKER_12 [447.12 → 448.28] I've got a second time.
+    SPEAKER_12 [448.38 → 453.20] I've been doing business with a small guy.
+    SPEAKER_12 [453.24 → 455.26] He's my early turn now.
+    SPEAKER_12 [455.86 → 458.14] So, my question is, how much are you getting?
+    SPEAKER_11 [458.20 → 458.88] A small business.
+    SPEAKER_12 [462.16 → 464.36] Sir, I am well-seated as well.
+    SPEAKER_12 [465.02 → 469.00] I mean, let's see, sir, I have made 50 crore, 100 crore, 500 crore.
+    SPEAKER_12 [469.02 → 471.82] So, that dream is in my mind.
+    SPEAKER_12 [471.85 → 474.11] I am in good business right now.
+    SPEAKER_12 [474.13 → 477.19] I am well-seated, I am profitable as well.
+    SPEAKER_12 [477.27 → 478.87] I have set up my own factory.
+    SPEAKER_12 [478.93 → 480.31] I have bought a good last year.
+    SPEAKER_12 [480.39 → 481.57] I have also bought a car.
+    SPEAKER_12 [481.87 → 483.03] Surat has given me a lot of money.
+    SPEAKER_12 [483.11 → 485.33] I don't even have the money to buy a cycle.
+    SPEAKER_12 [485.99 → 488.15] So, I am well-seated.
+    SPEAKER_12 [488.25 → 491.56] But now, when you open a dream after seeing the marketing, it is from 2-3 years.
+    SPEAKER_12 [492.06 → 493.64] So, I am telling you.
+    SPEAKER_12 [493.66 → 497.79] So, first of all, sir, to come to your sleep, sir, tell us some opportunities for our small businessmen.
+    SPEAKER_12 [497.81 → 498.41] Especially for me.
+    SPEAKER_12 [505.20 → 507.98] This is my question to all of you.
+    SPEAKER_12 [508.32 → 512.72] Especially for me, because I am here with you and you are doing some questions.
+    SPEAKER_12 [513.35 → 520.67] And the second is that I will highlight my product and how to make it bigger in India and globally.
+    SPEAKER_12 [521.07 → 523.87] Step by step, give me some tips for that.
+    SPEAKER_12 [523.99 → 524.71] Thank you very much sir.
+    SPEAKER_12 [524.73 → 525.84] You have given me a chance.
+    SPEAKER_12 [525.86 → 527.52] And I think it is my lucky luck today.
+    SPEAKER_11 [536.62 → 539.18] You know how did he sound to me?
+    SPEAKER_11 [540.78 → 550.99] He sounded like that, right?
+    SPEAKER_11 [552.45 → 554.23] But congratulations on the things you're doing.
+    SPEAKER_11 [554.27 → 559.43] I think one of the best advices which my mentor gave me, it's unrelated to your question, but I'll tell you to everyone.
+    SPEAKER_11 [560.18 → 562.40] My mentor told me that I have to introduce myself in my own life.
+    SPEAKER_11 [562.42 → 563.62] I have to introduce myself in my own business.
+    SPEAKER_11 [563.94 → 565.24] I have to introduce myself in my own business.
+    SPEAKER_11 [565.26 → 566.08] I always say that I do this work.
+    SPEAKER_11 [566.12 → 588.98] If you make a big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big big
+    SPEAKER_11 [593.04 → 596.62] So always start with, I do this.
+    SPEAKER_11 [596.64 → 598.87] I have seen a lot of small things.
+    SPEAKER_11 [599.65 → 601.53] Second is, how do you come on my podcast?
+    SPEAKER_11 [603.31 → 603.55] Wow!
+    SPEAKER_11 [603.57 → 611.50] I will tell you, so usually two ways.
+    SPEAKER_11 [612.38 → 612.86] First is,
+    SPEAKER_11 [613.94 → 615.98] I am interested in the business.
+    SPEAKER_11 [616.08 → 621.59] I don't have any industry that I think I don't have a lot of interest in it.
+    SPEAKER_11 [621.95 → 622.83] I am going to withdraw myself.
+    SPEAKER_11 [622.85 → 624.71] I am going to withdraw myself.
+    SPEAKER_11 [624.79 → 626.07] I am going to find myself.
+    SPEAKER_11 [626.71 → 627.31] It doesn't matter.
+    SPEAKER_11 [627.33 → 632.82] There are so many people on my podcast who are turning 2-3 crores.
+    SPEAKER_11 [632.84 → 634.80] And there are so many people who are turning 20-40 crores.
+    SPEAKER_11 [637.90 → 640.68] So that's what I do.
+    SPEAKER_11 [641.06 → 641.86] So that's what I do.
+    SPEAKER_11 [644.10 → 644.74] So that is first.
+    SPEAKER_11 [645.40 → 650.70] Second way is, we have to have a lot of emails that we want to do.
+    SPEAKER_11 [651.20 → 653.90] So whenever we have a lot of emails, our team is waiting.
+    SPEAKER_11 [654.40 → 656.87] We have a layer that asks 10 questions.
+    SPEAKER_11 [658.16 → 659.04] What is a business about?
+    SPEAKER_11 [659.45 → 660.63] What is unique about business?
+    SPEAKER_11 [661.03 → 665.89] What can you teach to our audience that nobody has taught to our audience ever before?
+    SPEAKER_11 [666.65 → 667.97] What makes you stand out?
+    SPEAKER_11 [668.41 → 669.67] Why specifically you?
+    SPEAKER_11 [670.27 → 675.07] What specific validations you have earned in life, just the way you're saying it, I believe.
+    SPEAKER_11 [675.09 → 676.81] That's it, there's 10 questions.
+    SPEAKER_11 [676.83 → 681.25] The whole team that tests it, and then they choose a specific person.
+    SPEAKER_11 [681.53 → 683.30] So these are the two ways, how we do it.
+    SPEAKER_11 [683.78 → 684.32] There have been,
+    SPEAKER_11 [686.83 → 697.20] There have been instances where 20,000 crore, 30,000 crore businesses, like India's businesses are very big.
+    SPEAKER_11 [697.22 → 698.88] We have also rejected them.
+    SPEAKER_11 [699.58 → 702.64] And the reason is that we don't know whether they will teach our audience.
+    SPEAKER_11 [703.68 → 706.67] So, if there are not 10 questions, we reject it.
+    SPEAKER_11 [707.03 → 709.13] We don't care who you are, what do you do?
+    SPEAKER_11 [709.77 → 712.81] To me, the most important is, can we teach something to our audience?
+    SPEAKER_11 [713.49 → 715.55] So, I think I hope that answered both of you.
+    SPEAKER_05 [716.92 → 717.20] Hello.
+    SPEAKER_11 [717.36 → 729.81] So, you know, I honestly, I'll tell you, I can't name, but we got an opportunity for India's top five billionaires.
+    SPEAKER_11 [730.39 → 733.07] I can't name you guys can think, if you have five in five, then think.
+    SPEAKER_11 [733.67 → 734.27] It's a very big name.
+    SPEAKER_11 [734.93 → 735.37] Five in five.
+    SPEAKER_11 [735.91 → 737.13] And they reached out to us.
+    SPEAKER_11 [737.91 → 739.41] And I don't know, they want to podcast.
+    SPEAKER_11 [740.43 → 743.27] And the top guy directly called me.
+    SPEAKER_11 [743.88 → 744.72] Like, Raj, I love your work.
+    SPEAKER_11 [745.69 → 746.09] Come over.
+    SPEAKER_11 [746.15 → 747.47] We want to have this podcast with you.
+    SPEAKER_11 [748.61 → 749.35] And we'll work on it.
+    SPEAKER_11 [749.37 → 749.99] We'll work on it.
+    SPEAKER_11 [750.01 → 750.89] We'll work on it.
+    SPEAKER_11 [750.91 → 751.49] We'll work on it.
+    SPEAKER_11 [752.45 → 753.37] We'll work on it.
+    SPEAKER_11 [754.01 → 754.67] We'll work on it.
+    SPEAKER_11 [754.69 → 755.61] We'll work on it.
+    SPEAKER_11 [756.57 → 757.17] We'll work on it.
+    SPEAKER_11 [757.19 → 757.77] We'll work on it.
+    SPEAKER_11 [757.81 → 758.49] We'll work on it.
+    SPEAKER_11 [758.87 → 759.73] We'll work on it.
+    SPEAKER_11 [774.37 → 776.91] You give us the first question.
+    SPEAKER_11 [776.95 → 779.01] The answers will be in the meantime.
+    SPEAKER_11 [779.05 → 781.11] And when we are going to cut them, we will cut them.
+    SPEAKER_11 [781.25 → 783.51] Because they can say exactly the exact same thing.
+    SPEAKER_11 [783.53 → 784.81] So, the share value can be up and down.
+    SPEAKER_11 [785.47 → 786.03] And we said no.
+    SPEAKER_11 [787.13 → 790.89] I knew that I had put in the podcast, so there were 10 million views.
+    SPEAKER_11 [791.93 → 794.18] And I was very excited to see who got it.
+    SPEAKER_11 [794.96 → 799.50] But we said no, because we don't want anyone to come on our podcast.
+    SPEAKER_11 [800.12 → 807.63] and talk something about their loved ones or they don't know anything about them or they don't teach my audience.
+    SPEAKER_11 [808.09 → 812.21] So I think we respect that a lot and that's why our podcast choosing selection is very well.
+    SPEAKER_05 [812.23 → 815.70] Hello.
+    SPEAKER_05 [816.08 → 818.38] So, you're Hi.
+    SPEAKER_05 [818.84 → 823.56] I'm Needy from Fopalus and first of all, great to have you here.
+    SPEAKER_05 [824.47 → 832.60] And my question is, being a content creator, you are constantly have to choose a niche for your audience.
+    SPEAKER_05 [833.50 → 843.68] And now being in a media agency, we also face this issue, like we have lag-ground diamonds, we have three different clients with lag-ground diamonds.
+    SPEAKER_05 [844.62 → 850.12] And how do we choose niche, same niche for three different lines with the same industry?
+    SPEAKER_11 [851.00 → 851.22] Wow.
+    SPEAKER_11 [853.02 → 853.26] Wow.
+    SPEAKER_11 [854.34 → 858.56] I would never work with three different clients together doing the same niche.
+    SPEAKER_11 [859.26 → 859.86] Let me think.
+    SPEAKER_11 [860.72 → 861.56] Interesting question.
+    SPEAKER_11 [863.08 → 869.53] You know, the way to do it probably what I do is, the way I choose niche is, I think my life is my niche.
+    SPEAKER_11 [870.09 → 874.69] So whatever I am going through, I ask myself five questions and based on that content, based on that I create content.
+    SPEAKER_11 [875.27 → 876.93] And this is what every business owner should also do.
+    SPEAKER_11 [878.30 → 883.18] You should ask these five questions to all three clients.
+    SPEAKER_11 [883.60 → 885.56] So let me tell you.
+    SPEAKER_11 [885.90 → 888.53] So first is, when I started creating content, this is what I asked.
+    SPEAKER_11 [888.55 → 891.47] I was like, who am I?
+    SPEAKER_11 [891.49 → 893.25] I'm a 20-year-old girl.
+    SPEAKER_11 [894.43 → 895.29] Where do I come from?
+    SPEAKER_11 [895.31 → 895.77] From Tier 2 City.
+    SPEAKER_11 [895.79 → 897.33] What do I have to do?
+    SPEAKER_11 [897.61 → 898.29] Like what am I dreams?
+    SPEAKER_11 [898.71 → 900.95] I have to become a big entrepreneur.
+    SPEAKER_11 [901.03 → 906.09] My biggest challenge is that if I go to Bombay, I don't know anyone, so probably networking is my challenge.
+    SPEAKER_11 [906.59 → 910.00] And then fifth is that I am right now at this point.
+    SPEAKER_11 [910.54 → 912.08] What is the need to become that big?
+    SPEAKER_11 [913.68 → 915.04] Like what is my pain point right now?
+    SPEAKER_11 [915.30 → 919.96] So my pain point is that I don't have any skill, I can't learn anything that I know how to become a big business.
+    SPEAKER_11 [921.57 → 928.45] So all my content was for a 20-year-old man to go to a big city in a big city to make a startup.
+    SPEAKER_11 [928.49 → 932.93] How can he learn new things, which was his startup?
+    SPEAKER_11 [933.96 → 935.00] That became my niche.
+    SPEAKER_11 [935.66 → 941.18] And that was exactly why most of the people started following me in the beginning, because I used to call this a podcast and ask people about it.
+    SPEAKER_11 [942.18 → 943.56] So that exactly what you can do.
+    SPEAKER_11 [943.58 → 945.90] These five questions, you can write down.
+    SPEAKER_11 [946.74 → 948.32] And for clients, this will be like,
+    SPEAKER_11 [949.36 → 949.98] What do we sell?
+    SPEAKER_11 [950.00 → 955.30] Because I wouldn't work with someone with the exact same, I wouldn't be able to actually give them exact value.
+    SPEAKER_11 [955.34 → 958.24] So if I answer this, then you can work.
+    SPEAKER_11 [958.40 → 959.83] That's how I create my niche.
+    SPEAKER_13 [982.26 → 1002.03] Hello, here we all know I mean I'm sure everyone has questions and that is why we have kept a specific content creators meet also which will happen in the exhibition area because obviously any day cannot end without a concert right so we have NOVA in the house
+    SPEAKER_13 [1002.63 → 1006.32] So we have to stop probably last few questions, we'll take it.
+    SPEAKER_13 [1006.84 → 1013.08] And then we'll have Raj and the entire content creator team in the exhibition area for the meet and greet.
+    SPEAKER_13 [1013.47 → 1017.43] But just last two questions, one from Anujan, one from Sharad's side.
+    SPEAKER_13 [1017.87 → 1017.99] Yeah.
+    SPEAKER_11 [1018.01 → 1021.05] So we can have two questions.
+    SPEAKER_11 [1021.11 → 1021.27] Cool.
+    SPEAKER_06 [1022.03 → 1022.33] Hello.
+    SPEAKER_06 [1022.49 → 1022.99] Hi Raj.
+    SPEAKER_06 [1023.19 → 1023.51] Hi.
+    SPEAKER_06 [1023.89 → 1024.31] Good evening.
+    SPEAKER_06 [1024.79 → 1035.76] So, when I was thinking to name my brand, name my company, then I was thinking that it has to be very catchy, it has to be very unique, which is why I named it Event Pitara.
+    SPEAKER_06 [1035.88 → 1037.60] Now I'm also known as Pitara Girl.
+    SPEAKER_11 [1037.62 → 1038.16] Nice.
+    SPEAKER_06 [1038.44 → 1041.50] So, what was the thought behind the name figuring out?
+    SPEAKER_11 [1041.94 → 1042.98] Because I was figuring out in life.
+    SPEAKER_06 [1043.48 → 1044.21] What exactly?
+    SPEAKER_11 [1044.23 → 1046.43] I was just, I told you, health, well relationships.
+    SPEAKER_06 [1046.96 → 1047.30] Really?
+    SPEAKER_06 [1047.42 → 1050.53] Because just because you are figuring out, you had kept it this way.
+    SPEAKER_11 [1050.68 → 1051.19] Exactly.
+    SPEAKER_11 [1051.33 → 1052.43] That was the reason.
+    SPEAKER_11 [1052.45 → 1057.61] I was like, I am figuring out in my life and how much I have to figure out.
+    SPEAKER_11 [1058.01 → 1058.95] What are we doing figuring out?
+    SPEAKER_11 [1059.41 → 1059.58] Right?
+    SPEAKER_11 [1060.06 → 1061.96] And I say this in my organization, there's a line.
+    SPEAKER_11 [1062.60 → 1065.84] The line is, we want to become world number one.
+    SPEAKER_11 [1067.47 → 1068.55] Are we the most talented?
+    SPEAKER_11 [1068.63 → 1068.79] No.
+    SPEAKER_11 [1069.27 → 1074.06] Do we know all the things that we can, that requires to become world number one?
+    SPEAKER_11 [1074.24 → 1074.40] No.
+    SPEAKER_11 [1074.72 → 1076.36] Do we have the right team to be there?
+    SPEAKER_11 [1076.50 → 1076.68] No.
+    SPEAKER_11 [1077.14 → 1078.58] Do we have the right language to be there?
+    SPEAKER_11 [1078.76 → 1078.94] No.
+    SPEAKER_11 [1079.36 → 1080.06] Maybe, maybe not.
+    SPEAKER_11 [1080.10 → 1080.48] We don't know.
+    SPEAKER_11 [1081.36 → 1084.06] But till that happens, we're going to keep figuring out.
+    SPEAKER_11 [1084.74 → 1086.62] So that is why we get figuring out.
+    SPEAKER_06 [1086.70 → 1087.22] Great thought.
+    SPEAKER_11 [1090.86 → 1097.32] I usually, if you have any start-up or brand, you don't have a lot of names.
+    SPEAKER_11 [1097.38 → 1100.00] I don't think there's a lot of names, there's a lot of work.
+    SPEAKER_11 [1100.02 → 1101.52] There's a lot of good names.
+    SPEAKER_11 [1102.40 → 1104.11] So, I have a lot of names.
+    SPEAKER_11 [1104.35 → 1108.41] All my names, like House of X, were just like, X means infinity.
+    SPEAKER_11 [1109.01 → 1110.29] So, it's the house of infinity.
+    SPEAKER_11 [1110.31 → 1111.83] We'll give you infinite potential.
+    SPEAKER_11 [1111.85 → 1115.49] Something that came to us at that time.
+    SPEAKER_11 [1115.53 → 1116.67] Like, that is how we keep it.
+    SPEAKER_11 [1116.75 → 1118.15] Blanko is a perfume name.
+    SPEAKER_11 [1126.72 → 1133.86] So we are very, very random with keeping names because I feel name is... I mean, I don't think so much.
+    SPEAKER_11 [1134.94 → 1140.22] And first is this second, I both think that his domain name should be found.
+    SPEAKER_11 [1140.30 → 1142.60] That is an Instagram ID should be found.
+    SPEAKER_11 [1143.74 → 1144.94] So these are the two things I see.
+    SPEAKER_11 [1144.96 → 1145.70] I don't think of names.
+    SPEAKER_00 [1146.06 → 1146.36] Hello.
+    SPEAKER_00 [1147.08 → 1147.28] Hi.
+    SPEAKER_00 [1147.52 → 1148.12] Here, Rajya.
+    SPEAKER_00 [1148.48 → 1149.12] Hi.
+    SPEAKER_00 [1149.18 → 1149.80] This is Ashna.
+    SPEAKER_00 [1149.82 → 1151.05] Firstly, welcome to Surat.
+    SPEAKER_00 [1151.57 → 1153.59] I really hope you enjoy your stay here.
+    SPEAKER_00 [1154.03 → 1156.39] So, I'm a budding new age entrepreneur.
+    SPEAKER_00 [1156.41 → 1158.15] Like a lot of people present here.
+    SPEAKER_00 [1158.29 → 1160.43] I have my own brand in the home decor niche.
+    SPEAKER_00 [1160.79 → 1162.67] And I want to ask you point blank.
+    SPEAKER_00 [1165.17 → 1183.18] What is that one thing that every entrepreneur should focus on should not miss out on at all in the budding stage, in the founding stage, or something that you have faced, a failure that you have realized here, this mistake is to avoid it.
+    SPEAKER_00 [1183.44 → 1184.82] So point blank.
+    SPEAKER_11 [1185.38 → 1186.94] First advice is follow Rajshamani.
+    SPEAKER_11 [1189.56 → 1191.22] No, I'll tell you zero to one.
+    SPEAKER_11 [1192.26 → 1192.50] I think
+    SPEAKER_11 [1194.10 → 1200.14] This is very cliché, but everybody knows this, and then I'll tell you a hack to it.
+    SPEAKER_11 [1200.96 → 1202.58] The cliché is start creating content.
+    SPEAKER_11 [1204.12 → 1209.63] Everyone in zero to one stage just create content, content, content, create so much content that you can.
+    SPEAKER_11 [1210.27 → 1216.21] I think the most important function of your business is getting the right customers in the initial stage.
+    SPEAKER_11 [1216.67 → 1218.57] And if you're not a product based business, then first,
+    SPEAKER_11 [1219.12 → 1220.68] Product, I'm assuming that product is made.
+    SPEAKER_11 [1221.74 → 1222.66] So, product is made.
+    SPEAKER_11 [1222.68 → 1225.44] The first and the most important thing is that you have customers.
+    SPEAKER_11 [1225.80 → 1228.35] And that customers can come from internet very easily.
+    SPEAKER_11 [1228.99 → 1231.79] So, 0 to 1, everyone who's your create content.
+    SPEAKER_11 [1232.21 → 1236.85] And don't tell me that I'm in B2B, I'm in B2C, I sell software, I sell construction, I sell all of them.
+    SPEAKER_11 [1236.93 → 1240.56] All of them are made in the scope and all of them are made in the content.
+    SPEAKER_11 [1240.58 → 1242.10] You can't buy any niche.
+    SPEAKER_11 [1242.38 → 1245.80] Now, a friend, he makes swimming pool.
+    SPEAKER_11 [1247.26 → 1247.86] Swimming pool.
+    SPEAKER_11 [1248.70 → 1249.10] Bangalore.
+    SPEAKER_11 [1249.14 → 1250.72] I could have never imagined the swimming pool.
+    SPEAKER_11 [1250.74 → 1252.28] But when he talks, so what happens maybe real estate builder.
+    SPEAKER_11 [1252.30 → 1255.22] Like anything that happened content is that that that that that power.
+    SPEAKER_11 [1255.24 → 1255.81] So zero to one.
+    SPEAKER_11 [1278.79 → 1279.55] Content 100%.
+    SPEAKER_11 [1280.47 → 1293.55] Now the hack to create content and go really, really viral is I'll give you two first is make any content that is savable and shareable.
+    SPEAKER_11 [1294.88 → 1299.02] No content likes or comments.
+    SPEAKER_11 [1299.04 → 1302.16] Because of content, why do you sell this to others?
+    SPEAKER_11 [1302.18 → 1304.86] In any niche, such things like
+    SPEAKER_11 [1306.37 → 1307.23] You should treat.
+    SPEAKER_11 [1307.39 → 1308.29] I'll tell you the biggest thing.
+    SPEAKER_11 [1308.33 → 1316.70] You should think that your audience should send this to other people by actually insulting them.
+    SPEAKER_11 [1316.74 → 1320.70] And this is what smart people do.
+    SPEAKER_11 [1321.48 → 1323.46] We all have that smart uncle and whatsapp group.
+    SPEAKER_11 [1324.26 → 1325.26] And that's why they think they are smart.
+    SPEAKER_11 [1330.15 → 1333.46] But because someone has made a content for them, which is smart.
+    SPEAKER_11 [1333.48 → 1335.56] That's why they are sharing their content.
+    SPEAKER_11 [1335.80 → 1337.34] This is what everybody should think about.
+    SPEAKER_11 [1337.36 → 1342.56] I feel smart in my customers, so that they share my content with others.
+    SPEAKER_11 [1343.12 → 1344.61] And that is the biggest, biggest hack.
+    SPEAKER_11 [1344.94 → 1348.19] You will go 0 to 1, 0 to 100, very, very, very quickly.
+    SPEAKER_11 [1348.63 → 1352.93] Just make sure that your making sure that your customer is feeling smart.
+    SPEAKER_11 [1353.37 → 1354.43] So all customers are lazy.
+    SPEAKER_11 [1354.47 → 1355.39] They'll still come to you.
+    SPEAKER_11 [1355.41 → 1357.51] They'll still ask you to do this stuff even after knowing all the hacks.
+    SPEAKER_11 [1357.55 → 1361.81] So you should just make them feel that they're smart and tell them everything that you have.
+    SPEAKER_11 [1361.83 → 1362.21] That's it.
+    SPEAKER_11 [1385.23 → 1387.41] Oh, this last question we'll take from this side.
+    SPEAKER_11 [1387.61 → 1387.83] Sorry.
+    SPEAKER_11 [1388.43 → 1389.15] Last question.
+    SPEAKER_11 [1390.45 → 1398.61] Can we give it this thing in?
+    SPEAKER_11 [1398.63 → 1399.78] Oh, three people should have.
+    SPEAKER_11 [1399.82 → 1401.66] Now you just do rock paper.
+    SPEAKER_11 [1408.92 → 1411.04] Guys, guys, guys, guys, guys.
+    SPEAKER_11 [1411.88 → 1412.24] I'll sign.
+    SPEAKER_11 [1412.26 → 1412.70] I'll sign.
+    SPEAKER_11 [1413.16 → 1413.40] I'll sign.
+    SPEAKER_11 [1415.54 → 1416.34] We can do one one each.
+    SPEAKER_11 [1416.54 → 1416.76] Fine.
+    SPEAKER_11 [1416.84 → 1417.54] Like let's do two.
+    SPEAKER_11 [1417.82 → 1418.16] Okay.
+    SPEAKER_11 [1418.72 → 1419.16] Last two.
+    SPEAKER_11 [1419.24 → 1420.60] I'll try to keep answers short.
+    SPEAKER_11 [1420.92 → 1421.84] By the time you can comment on sign.
+    SPEAKER_07 [1424.44 → 1425.00] Hi Raj.
+    SPEAKER_07 [1426.22 → 1427.14] So I'm C.A.
+    SPEAKER_07 [1427.24 → 1430.10] Githika Bajaj and I run an outsourcing firm.
+    SPEAKER_07 [1433.22 → 1437.42] The minute you hear that it's an outsourcing firm, you feel like, oh, it's going to be boring.
+    SPEAKER_07 [1437.96 → 1438.86] And I love speaking.
+    SPEAKER_07 [1438.90 → 1441.64] So I started making content related to that.
+    SPEAKER_07 [1442.18 → 1447.66] But now I think that, OK, CS generally don't make much content related to outsourcing.
+    SPEAKER_07 [1448.22 → 1451.31] So I feel like I could start a podcast.
+    SPEAKER_07 [1451.65 → 1456.01] But the bottleneck that I'm facing is that, how do I reach out?
+    SPEAKER_07 [1456.45 → 1460.05] So how did you first get your first podcast host?
+    SPEAKER_07 [1460.29 → 1460.39] OK.
+    SPEAKER_11 [1461.65 → 1467.62] So everyone who wants to do a podcast or maybe invite people in their events, can you guys sit?
+    SPEAKER_11 [1467.70 → 1468.58] I'll answer.
+    SPEAKER_11 [1469.28 → 1470.00] I will be here.
+    SPEAKER_11 [1470.02 → 1473.34] I'll sign everything.
+    SPEAKER_11 [1474.80 → 1477.80] So just to start the podcast, how many people want to build podcasts?
+    SPEAKER_11 [1477.82 → 1478.56] By the way, I just want to see.
+    SPEAKER_11 [1479.04 → 1479.30] Wow.
+    SPEAKER_11 [1482.11 → 1483.57] Just the node values of the computer.
+    SPEAKER_11 [1483.61 → 1491.05] Now I have to give you a wrong tip.
+    SPEAKER_11 [1491.37 → 1492.59] I am kidding.
+    SPEAKER_11 [1493.01 → 1494.45] You can take my whole blueprint.
+    SPEAKER_11 [1494.49 → 1495.56] You can take my people.
+    SPEAKER_11 [1495.58 → 1498.62] You can take my whole company and try to build your podcast.
+    SPEAKER_11 [1498.92 → 1500.10] And you will be able to build it.
+    SPEAKER_11 [1500.14 → 1500.48] Don't worry.
+    SPEAKER_11 [1501.06 → 1501.62] Very open.
+    SPEAKER_11 [1504.22 → 1504.96] Very open like that.
+    SPEAKER_11 [1505.56 → 1507.72] So my first guest.
+    SPEAKER_11 [1508.73 → 1514.62] was my I think 170th or 180th email that somebody said yes.
+    SPEAKER_11 [1515.46 → 1518.94] So I'll tell you okay not a lot of people know this.
+    SPEAKER_11 [1519.58 → 1520.88] Let me start together podcast.
+    SPEAKER_11 [1521.78 → 1522.94] I don't sell all of them.
+    SPEAKER_11 [1522.96 → 1527.54] From entrepreneurs to famous content creators to all of them.
+    SPEAKER_11 [1527.98 → 1530.16] So, I don't sell anyone.
+    SPEAKER_11 [1530.52 → 1533.36] So, I'll tell you the number of people who are today my friends.
+    SPEAKER_11 [1533.96 → 1538.03] We are like very close buddies and we hang out together and they didn't sell anyone.
+    SPEAKER_11 [1538.05 → 1540.89] They didn't sell anyone until 6 months.
+    SPEAKER_11 [1541.25 → 1542.97] Back to back, I sell 10-15 emails.
+    SPEAKER_11 [1544.77 → 1545.39] Parul Gulati.
+    SPEAKER_11 [1547.34 → 1550.28] Parul ended up becoming one of my first guest in the initial.
+    SPEAKER_11 [1550.48 → 1552.84] He followed him a lot and then he said yes, Parul.
+    SPEAKER_11 [1553.18 → 1555.14] I think 10 to 11th podcast was with Parul.
+    SPEAKER_11 [1556.48 → 1557.80] She was there.
+    SPEAKER_11 [1558.34 → 1559.12] Ranveer Alabadiya.
+    SPEAKER_11 [1559.76 → 1560.30] Didn't reply.
+    SPEAKER_11 [1560.78 → 1562.34] For today's reply, he got the same email.
+    SPEAKER_11 [1562.78 → 1563.52] What's he going to reply?
+    SPEAKER_11 [1563.56 → 1564.48] He will not even email me.
+    SPEAKER_11 [1565.70 → 1567.35] Okay, then Dr. Ritesh Malik.
+    SPEAKER_11 [1567.92 → 1569.16] For the longest time, he didn't reply.
+    SPEAKER_11 [1570.19 → 1571.27] Then Kunal Shah.
+    SPEAKER_11 [1572.16 → 1572.68] Didn't reply.
+    SPEAKER_11 [1573.04 → 1573.68] Kamat Brothers.
+    SPEAKER_11 [1574.28 → 1574.76] Didn't reply.
+    SPEAKER_11 [1574.82 → 1578.12] Nikhil is one of my closest big brother type now.
+    SPEAKER_11 [1578.80 → 1581.28] He's a person who I go to advice for now.
+    SPEAKER_11 [1581.36 → 1582.54] He didn't reply to me at that time.
+    SPEAKER_11 [1583.84 → 1586.52] Then Masoom Minawala, no reply.
+    SPEAKER_11 [1586.94 → 1595.65] So all these people, like all of your names today, probably they have good friends or someone who are collaborators or we belong to the same industry.
+    SPEAKER_11 [1596.27 → 1597.15] None of them replied.
+    SPEAKER_11 [1597.81 → 1598.29] None of them.
+    SPEAKER_11 [1598.77 → 1601.41] My first podcast was with
+    SPEAKER_11 [1602.88 → 1603.98] I still remember his name.
+    SPEAKER_11 [1604.72 → 1606.00] I still remember his name.
+    SPEAKER_11 [1606.02 → 1608.18] I still remember his name.
+    SPEAKER_11 [1608.20 → 1609.38] I still remember his name.
+    SPEAKER_11 [1617.41 → 1619.82] He didn't have a big business, but he said yes.
+    SPEAKER_11 [1619.98 → 1621.78] I was very interested in how to make a wall painting.
+    SPEAKER_11 [1621.80 → 1625.50] Because I used to make wall painting for my business.
+    SPEAKER_11 [1626.14 → 1627.33] So that was my first guest.
+    SPEAKER_11 [1627.87 → 1632.91] My second guest was a poet, Yaya Bhutwala.
+    SPEAKER_11 [1633.87 → 1636.45] He was a poet for his stand-up event and show.
+    SPEAKER_11 [1640.44 → 1642.00] We were able to do it.
+    SPEAKER_11 [1642.02 → 1644.74] My third podcast, which I deleted, I will not meet you until now.
+    SPEAKER_11 [1644.78 → 1648.11] Shweta Gangwar, a very rowdy alpha male type content was made.
+    SPEAKER_11 [1648.12 → 1649.07] Shweta, I was named Sutra.
+    SPEAKER_11 [1658.71 → 1669.96] And then I deleted it because that was not vibing with my authority.
+    SPEAKER_11 [1670.20 → 1671.74] So I've done all of this.
+    SPEAKER_11 [1672.94 → 1677.78] Now, what I've learned after reaching out to so many people, that is more important.
+    SPEAKER_11 [1679.20 → 1681.34] Even today, a lot of people don't reply by that way.
+    SPEAKER_11 [1682.14 → 1683.74] I've been chasing Gautam Adani since ages.
+    SPEAKER_11 [1683.77 → 1684.66] I don't reply.
+    SPEAKER_11 [1684.68 → 1684.88] Right?
+    SPEAKER_11 [1686.90 → 1688.34] They don't reply today, but we keep chasing.
+    SPEAKER_11 [1689.50 → 1690.05] One day he'll come.
+    SPEAKER_11 [1690.55 → 1692.21] We keep chasing Ambani's.
+    SPEAKER_11 [1692.47 → 1693.09] They don't reply.
+    SPEAKER_11 [1693.53 → 1695.31] We're trying to reach out to Ratan Tata.
+    SPEAKER_11 [1695.33 → 1695.99] They are on reply.
+    SPEAKER_11 [1696.27 → 1697.97] We recently reached out to Barakobama.
+    SPEAKER_11 [1697.99 → 1698.49] They replied.
+    SPEAKER_07 [1698.51 → 1704.68] So you have to keep chasing that.
+    SPEAKER_11 [1704.86 → 1706.64] You just have to keep doing it, right?
+    SPEAKER_11 [1706.68 → 1710.84] In fact, recently... So I reached out to...
+    SPEAKER_11 [1712.63 → 1715.49] I read out to Sundar Pichai, Google CEO.
+    SPEAKER_11 [1715.87 → 1718.21] And Varun, one of my very close friends, he did a podcast with him.
+    SPEAKER_11 [1723.40 → 1727.44] So I keep doing it even today every day and a lot of people don't reply.
+    SPEAKER_11 [1728.32 → 1736.74] One thing, one type of email which has gotten me maximum replies is when I start my email with what I'm going to do to them.
+    SPEAKER_11 [1738.62 → 1746.62] Most of the emails where I have received or when I have sent people don't reply when I say hey, I am Rajshamani.
+    SPEAKER_11 [1746.85 → 1748.99] I run this podcast and I can do this.
+    SPEAKER_11 [1749.27 → 1762.85] It'll be my honor if you accept my humble request to be on my podcast right that never works To me it has never I throw ups I'd like to change the guest for example
+    SPEAKER_11 [1764.36 → 1770.92] First, his first podcast or first interview after his whole fiasco of Shaqtang was with us.
+    SPEAKER_11 [1771.42 → 1776.27] He didn't reply to fobs, he didn't reply to CNN, he didn't reply to economic times, he didn't reply to money control.
+    SPEAKER_11 [1776.66 → 1782.19] But he replied to us because all of them, this is the reason why we have the opportunity to talk to you, this is what they will do.
+    SPEAKER_11 [1782.65 → 1784.51] He sends that to all the controversy.
+    SPEAKER_11 [1784.95 → 1787.33] He sends that, okay, he's gonna help me.
+    SPEAKER_11 [1787.89 → 1790.87] The moment you can make your guess feel like, I'm gonna help you.
+    SPEAKER_11 [1791.65 → 1793.53] I'm doing a favor by getting you on.
+    SPEAKER_11 [1794.48 → 1797.15] They're going to no matter how big or small you are, they'll come on you.
+    SPEAKER_11 [1797.79 → 1798.45] This is what I've learned.
+    SPEAKER_11 [1801.73 → 1809.85] So exactly this email, your way of speaking getting overshadowed, let me help you change that.
+    SPEAKER_09 [1814.65 → 1816.86] Hi Raj, I have a question.
+    SPEAKER_09 [1817.43 → 1819.50] You shared about three of your success stories.
+    SPEAKER_09 [1819.58 → 1823.48] Can you share about one of your failure startups and what did you do after that?
+    SPEAKER_11 [1824.46 → 1824.80] Lovely.
+    SPEAKER_11 [1826.31 → 1828.71] I'll tell you the most common one, which I think everybody did.
+    SPEAKER_11 [1828.73 → 1829.87] I have also made a sanitizer.
+    SPEAKER_11 [1829.91 → 1835.57] I have made a sanitizer and a sanitizer.
+    SPEAKER_11 [1835.63 → 1837.83] And it was a very big failure.
+    SPEAKER_11 [1837.87 → 1838.45] It was a flop.
+    SPEAKER_11 [1839.40 → 1845.58] I made a lot of money for the disinfectants, but first I made a sanitizer.
+    SPEAKER_11 [1846.20 → 1849.20] The thing was, everyone was making it, so I followed a trend.
+    SPEAKER_11 [1849.94 → 1852.70] I didn't have my purchase capacity or selling capacity.
+    SPEAKER_11 [1852.76 → 1854.18] I didn't have a formulation.
+    SPEAKER_11 [1854.94 → 1855.30] I failed.
+    SPEAKER_11 [1855.32 → 1857.73] I didn't stand out myself.
+    SPEAKER_11 [1857.77 → 1859.27] I didn't have any uniqueness.
+    SPEAKER_11 [1859.59 → 1860.13] There I failed.
+    SPEAKER_11 [1860.89 → 1865.33] So failure was because I tried to chase something where I didn't know anything about
+    SPEAKER_11 [1888.47 → 1889.07] And that's where I feel.
+    SPEAKER_11 [1889.09 → 1894.61] And that's, I think, the common story with everyone in every failure that I would say one of the biggest failures that I had.
+    SPEAKER_01 [1896.15 → 1896.61] Amazing.
+    SPEAKER_01 [1897.05 → 1898.19] Hi, lovely.
+    SPEAKER_08 [1898.43 → 1898.85] Lovely.
+    SPEAKER_01 [1900.57 → 1904.49] On the behalf of the IVGRO team and 21 by 72, so we loved having you.
+    SPEAKER_01 [1904.55 → 1905.27] Absolutely loved.
+    SPEAKER_01 [1905.31 → 1906.87] I think we all can watch for that.
+    SPEAKER_01 [1906.95 → 1908.69] Let's give a big round of applause.
+       UNKNOWN [1909.32 → 1909.67] Thank you.
+    SPEAKER_01 [1913.39 → 1915.45] We just want to know your experience in Surat.
+    SPEAKER_01 [1915.75 → 1918.80] I hope you loved being here as much as we loved having you.
+    SPEAKER_11 [1919.68 → 1920.60] It was lovely.
+    SPEAKER_11 [1920.96 → 1922.08] It was lovely.
+    SPEAKER_11 [1922.14 → 1923.36] It was lovely.
+    SPEAKER_11 [1923.38 → 1923.80] It was lovely.
+    SPEAKER_11 [1923.86 → 1925.62] It was lovely.
+    SPEAKER_11 [1925.64 → 1926.02] It was lovely.
+    SPEAKER_11 [1926.04 → 1926.54] It was lovely.
+    SPEAKER_11 [1943.13 → 1950.62] And after that I am coming where now I feel like people are coming to receive me.
+    SPEAKER_11 [1950.64 → 1962.79] So it's a very surreal feeling that the city where I started doing trade from, the city where I was really under-confident is a city which is welcoming me.
+    SPEAKER_11 [1962.85 → 1963.79] So I loved it.
+    SPEAKER_11 [1963.85 → 1965.30] Thank you so much for giving me this honor.
+    SPEAKER_11 [1967.07 → 1969.37] And I loved you guys hospitality.
+    SPEAKER_11 [1969.81 → 1971.97] It's you guys are really, really kind.
+    SPEAKER_11 [1972.19 → 1973.39] And let me tell you one thing guys.
+    SPEAKER_11 [1974.51 → 1979.37] This guy, both of them give us a first time room as I know.
+    SPEAKER_11 [1980.29 → 1982.11] How do people enter in the room?
+    SPEAKER_11 [1985.78 → 1986.22] Hi!
+    SPEAKER_11 [1986.32 → 1988.42] Hi, Rajesh, Tamrati, right?
+    SPEAKER_11 [1989.44 → 1993.39] These guys entered like this, right?
+    SPEAKER_10 [1993.51 → 1995.37] So good to see you, man!
+    SPEAKER_10 [1995.65 → 1999.03] If it's so good, dude, we are so excited to hear.
+    SPEAKER_10 [1999.05 → 2005.43] I was like... And then, I woke up in 5 minutes, I was sleeping for 2 hours yesterday.
+    SPEAKER_10 [2007.10 → 2008.78] I'm out, can I say?
+    SPEAKER_10 [2009.44 → 2013.61] And to actors, like, yeah man, super excited, let's go to this.
+    SPEAKER_10 [2014.65 → 2018.27] The kind of energy these guys give is so contagious.
+    SPEAKER_11 [2018.53 → 2019.93] Thank you so much for doing this.
+    SPEAKER_11 [2020.33 → 2020.87] Thank you guys.
+    SPEAKER_08 [2020.95 → 2021.97] It was amazing.
+    SPEAKER_11 [2021.99 → 2022.71] Thank you so much.
+    SPEAKER_08 [2022.95 → 2036.30] Raj, one thing I would add on to this, we all felt like we are watching or listening to actually figuring out the Raj Sharmani podcast live here because it was so candid, it was so raw and so honest.
+    SPEAKER_08 [2036.74 → 2040.88] And thank you so much for the patience you answered each and every question to your best.
+    SPEAKER_08 [2040.92 → 2041.86] Thank you so much.
+    SPEAKER_08 [2041.88 → 2042.34] Thank you.
+    SPEAKER_11 [2042.36 → 2042.90] Thank you.
+    SPEAKER_08 [2044.22 → 2056.57] And to felicitate you, please, we would like to welcome all the IVY Growth Associates founders and the title sponsor, Ayaan Team Ayaani, lab-grown diamonds.
+    SPEAKER_08 [2057.01 → 2064.59] So anybody from Team Ayaani and Steamhouse, we welcome Jheel Boudia and Shivangi Agarwal from Steamhouse.
+    SPEAKER_08 [2064.95 → 2069.52] So please come up on the stage and help us felicitate Rajmani.
+    SPEAKER_08 [2076.76 → 2079.03] also Raj, we have a very special
+    SPEAKER_08 [2083.49 → 2090.25] Raj, we have a very special gift for you made by Mantan, who is from Five Some Games.
+    SPEAKER_08 [2090.29 → 2096.11] He's a specially challenged and he has made a personalized board game for you.
+    SPEAKER_08 [2096.45 → 2099.74] And I would request Team Iveywai to present this board game.
+    SPEAKER_08 [2100.03 → 2101.56] Customize a board game for you.
+    SPEAKER_08 [2101.66 → 2102.68] His name is Mantan.
+    SPEAKER_08 [2102.78 → 2107.22] He's physically not present here, but Team Iveywai would like to present this.
+    SPEAKER_02 [2114.20 → 2117.98] I love you so much, I love you so much
+=================================================================

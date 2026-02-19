@@ -25,7 +25,7 @@ COMPUTE_TYPE = "float16" if DEVICE == "cuda" else "float32"
 LANGUAGE     = "en"
 SAMPLE_RATE  = 16000
 # BATCH_SIZE   = 16 if DEVICE == "cuda" else 4
-BATCH_SIZE   = 8
+BATCH_SIZE   = 32
 # HF_TOKEN     = os.getenv("HF_TOKEN", "").strip()
 HF_TOKEN     = os.getenv("HF_TOKEN_WHISPERX", "").strip()
 
@@ -229,7 +229,7 @@ class AudioTranscriber:
 
 
 if __name__ == "__main__":
-    input_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "misunderstood.webm")
+    input_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "rajspeech.webm")
 
     if not os.path.exists(input_file):
         raise FileNotFoundError(f"Input file not found: {input_file}")
