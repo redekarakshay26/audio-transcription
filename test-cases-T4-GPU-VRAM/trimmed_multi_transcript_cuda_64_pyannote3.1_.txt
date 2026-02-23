@@ -1,5 +1,5 @@
 =================================================================
-  Run Timestamp    : 2026-02-19 15:05:17
+  Run Timestamp    : 2026-02-23 11:43:33
 =================================================================
 
 [Config]
@@ -7,7 +7,7 @@
   device           : cuda
   compute_type     : float16
   language         : en
-  batch_size       : 8
+  batch_size       : 64
   diarize_model    : pyannote/speaker-diarization-3.1
 
 [GPU]
@@ -17,18 +17,29 @@
   cudnn_version    : 8902
   device_index     : 0
 
+[GPU Usage]
+  vram_used        : 0.4 GB
+  vram_reserved    : 3.4 GB
+  vram_total       : 14.74 GB
+  vram_usage_%     : 2.7%
+
+[GPU Peak Memory]
+  # Peak VRAM recorded during the full pipeline run
+  # Reset before audio load, captured after pipeline completes
+  vram_peak        : 1.95 GB
+
 [Audio]
   file             : trimmed_multi.webm
   duration         : 487.7s  (8.13m)
   total segments   : 105
 
 [Timings]
-  audio_load       : 3.24s  (0.05m)
-  transcription    : 2.96s  (0.05m)
-  alignment        : 7.48s  (0.12m)
-  diarization      : 20.42s  (0.34m)
-  speaker_assign   : 1.97s  (0.03m)
-  total            : 38.49s  (0.64m)
+  audio_load       : 3.22s  (0.05m)
+  transcription    : 2.66s  (0.04m)
+  alignment        : 7.1s  (0.12m)
+  diarization      : 18.94s  (0.32m)
+  speaker_assign   : 2.01s  (0.03m)
+  total            : 36.34s  (0.61m)
 
 [Transcript]
 -----------------------------------------------------------------
@@ -59,7 +70,7 @@
     SPEAKER_00 [ 75.56 →  78.21] They are not the consumers of content.
     SPEAKER_00 [ 78.97 →  82.45] But they are the ones who are going to be the creators of content tomorrow.
     SPEAKER_02 [ 82.95 →  85.39] And now this year, our season 5 is about to come.
-    SPEAKER_02 [ 85.79 →  92.02] And in that, we have specially said to producers and makers that please bring these young guys.
+    SPEAKER_02 [ 85.79 →  92.02] And in that, we have specially asked producers and makers to please bring these young guys.
     SPEAKER_02 [ 92.04 →  94.66] Because their ideas are different and they are ready to change the world.
     SPEAKER_02 [ 94.68 →  98.28] We used to teach our Maam Mar market teachers history.
     SPEAKER_02 [ 98.34 → 100.32] And today, they are making history.
@@ -71,20 +82,20 @@
     SPEAKER_02 [125.65 → 126.27] I'll do my best.
     SPEAKER_02 [127.58 → 131.81] So, I have seen a lot of changes happen.
     SPEAKER_02 [132.11 → 138.63] When I entered the workforce, I remember, my mom was also a teacher in Don Bosque School.
-    SPEAKER_02 [139.19 → 143.73] But when I entered the workforce, actually, I used to play chess before interviews.
-    SPEAKER_02 [143.75 → 148.23] You know, if you are going on an interview, it would be a good interview.
+    SPEAKER_02 [139.19 → 143.75] But when I entered the workforce, actually, I used to play chess before interviews.
+    SPEAKER_02 [143.81 → 146.35] When you go to the interview, it would be a good interview.
     SPEAKER_02 [149.41 → 157.73] And today, when I work with a lot of Gen Zs and Millennials, and I see them coming to the job as if they do us a favor working for us.
     SPEAKER_02 [159.21 → 160.99] So it's a very different world.
     SPEAKER_02 [162.27 → 163.53] But I love working with them.
     SPEAKER_02 [164.19 → 167.25] They bring a different perspective.
-    SPEAKER_02 [167.87 → 172.96] They may not have the right experience, which others may have, but their exposure is amazing.
+    SPEAKER_02 [167.87 → 172.96] They may not have the right experience which others may have, but their exposure is amazing.
     SPEAKER_02 [173.34 → 176.52] And if you don't learn how to
     SPEAKER_02 [177.16 → 178.18] walk together with them.
     SPEAKER_02 [179.26 → 193.80] Then today companies like us will become probably dead in a few years because they are the ones who know what moves in the market, what is the right way to approach the consumers, what is the right marketing happening.
     SPEAKER_02 [193.88 → 196.16] I will tell you a very small story.
-    SPEAKER_02 [197.40 → 200.92] You know, I was... I take a lot of interns from schools.
+    SPEAKER_02 [197.40 → 200.92] You know, I take a lot of interns from schools.
     SPEAKER_02 [201.00 → 203.22] I made a lot of school directors.
-    SPEAKER_02 [203.65 → 207.59] So, when interns come, I make them sit with my marketing team.
+    SPEAKER_02 [203.65 → 207.59] So when interns come, I make them sit with my marketing team.
     SPEAKER_02 [207.85 → 214.85] And actually, it's a refresher course for my marketing team because what these guys bring to the table is very fresh thinking.
     SPEAKER_02 [215.61 → 217.21] And I started, I was on Facebook.
     SPEAKER_02 [217.41 → 220.43] And there was somebody who was an interning with us, 21-year-old.

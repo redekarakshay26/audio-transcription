@@ -1,5 +1,5 @@
 =================================================================
-  Run Timestamp    : 2026-02-19 15:04:22
+  Run Timestamp    : 2026-02-23 11:32:50
 =================================================================
 
 [Config]
@@ -17,18 +17,29 @@
   cudnn_version    : 8902
   device_index     : 0
 
+[GPU Usage]
+  vram_used        : 0.4 GB
+  vram_reserved    : 3.4 GB
+  vram_total       : 14.74 GB
+  vram_usage_%     : 2.7%
+
+[GPU Peak Memory]
+  # Peak VRAM recorded during the full pipeline run
+  # Reset before audio load, captured after pipeline completes
+  vram_peak        : 1.95 GB
+
 [Audio]
   file             : trimmed_multi.webm
   duration         : 487.7s  (8.13m)
   total segments   : 105
 
 [Timings]
-  audio_load       : 3.33s  (0.06m)
-  transcription    : 3.13s  (0.05m)
-  alignment        : 7.29s  (0.12m)
-  diarization      : 19.41s  (0.32m)
-  speaker_assign   : 1.98s  (0.03m)
-  total            : 37.68s  (0.63m)
+  audio_load       : 3.3s  (0.06m)
+  transcription    : 3.46s  (0.06m)
+  alignment        : 7.35s  (0.12m)
+  diarization      : 18.8s  (0.31m)
+  speaker_assign   : 1.96s  (0.03m)
+  total            : 37.65s  (0.63m)
 
 [Transcript]
 -----------------------------------------------------------------

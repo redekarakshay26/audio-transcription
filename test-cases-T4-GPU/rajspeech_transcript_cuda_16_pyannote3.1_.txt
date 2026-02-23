@@ -1,5 +1,5 @@
 =================================================================
-  Run Timestamp    : 2026-02-19 14:49:39
+  Run Timestamp    : 2026-02-23 09:23:50
 =================================================================
 
 [Config]
@@ -17,18 +17,24 @@
   cudnn_version    : 8902
   device_index     : 0
 
+[GPU Usage]
+  vram_used        : 0.4 GB
+  vram_reserved    : 3.4 GB
+  vram_total       : 14.74 GB
+  vram_usage_%     : 2.7%
+
 [Audio]
   file             : rajspeech.webm
   duration         : 4609.4s  (76.82m)
   total segments   : 1190
 
 [Timings]
-  audio_load       : 32.12s  (0.54m)
-  transcription    : 23.28s  (0.39m)
-  alignment        : 68.19s  (1.14m)
-  diarization      : 212.69s  (3.54m)
-  speaker_assign   : 19.09s  (0.32m)
-  total            : 357.79s  (5.96m)
+  audio_load       : 34.65s  (0.58m)
+  transcription    : 22.88s  (0.38m)
+  alignment        : 65.22s  (1.09m)
+  diarization      : 201.37s  (3.36m)
+  speaker_assign   : 19.02s  (0.32m)
+  total            : 345.57s  (5.76m)
 
 [Transcript]
 -----------------------------------------------------------------
